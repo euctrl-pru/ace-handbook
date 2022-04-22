@@ -14,6 +14,26 @@ book:
     - bechmarking-and-ses.qmd
     - monetary-factors.qmd
     - references.qmd
+  navbar:
+    background: primary
+    search: false
+    title: false
+    left:
+      - text: "Aviation Intelligence"
+        icon: "star"
+        menu:
+          - text: "Home"
+            icon: "house-fill"
+            href: "https://ansperformance.eu"
+          - text: "Balanced Scorecard"
+            icon: "grid-3x3-gap-fill"
+            href: "https://www.eurocontrol.int/Economics/BalancedScorecard.html"
+      - text: "About"
+        menu:
+          - text: "About the PRC"
+            href: "https://ansperformance.eu/about/prc/"
+          - text: "About the PRU"
+            href: "https://ansperformance.eu/about/us/"
 
 bibliography: references.bib
 
