@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "ACE Methodology"
+  author: "Jean-Claude HUSTACHE"
+  date: "2022-04-22"
+  chapters:
+    - index.qmd
+    - process-and-use.qmd
+    - methodology.qmd
+    - delays-and-cost.qmd
+    - influencing-factors.qmd
+    - bechmarking-and-ses.qmd
+    - monetary-factors.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
