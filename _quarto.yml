@@ -15,9 +15,10 @@ book:
     - monetary-factors.qmd
     - references.qmd
   navbar:
-    background: primary
+    background: light
     search: false
     title: false
+    logo: "images/EUROCONTROL-logo-standard-rgb.svg"
     left:
       - text: "Aviation Intelligence"
         icon: "star"
