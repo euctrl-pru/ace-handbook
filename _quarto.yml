@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "ACE Methodology"
-  author: "Jean-Claude HUSTACHE"
+  title: "ACE Handbook"
+  author: "Performance Review Unit"
   date: "2022-04-22"
   chapters:
     - index.qmd

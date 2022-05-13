@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.178">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>ACE Methodology - 5&nbsp; Factors affecting performance</title>
+  <title>ACE Handbook - 5&nbsp; Factors affecting performance</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -32,11 +32,11 @@
   <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
   <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
   <script id="quarto-search-options" type="application/json">{
-    "location": "sidebar",
+    "location": "navbar",
     "copy-button": false,
     "collapse-after": 3,
-    "panel-placement": "start",
-    "type": "textbox",
+    "panel-placement": "end",
+    "type": "overlay",
     "limit": 20,
     "language": {
       "search-no-results-text": "No results",
@@ -50,6 +50,7 @@
       "search-submit-button-title": "Submit"
     }
   }</script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -57,6 +58,201 @@
 <body class="floating">
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <img src="./images/EUROCONTROL-logo-standard-rgb.svg" alt="">
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-aviation-intelligence" role="button" data-bs-toggle="dropdown" aria-expanded="false">Aviation Intelligence</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-aviation-intelligence">    
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu"><i class="bi bi-house-fill" role="img">
+</i> 
+ <span class="dropdown-text"><strong>Home</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.eurocontrol.int/Economics/BalancedScorecard.html"><i class="bi bi-grid-3x3-gap-fill" role="img">
+</i> 
+ <span class="dropdown-text"><strong>Balanced Scorecard</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/covid/">
+ <span class="dropdown-text"><i class="fas fa-biohazard"></i> <strong>COVID-19 crisis</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.eurocontrol.int/covid19#response-to-covid-19"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">State and Airline response to Covid-19</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/covid/acft_ground/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Grounded Aircraft</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/covid/covid_ert_rev"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Impact on en-route revenues</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/covid/covid_vfe/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Impact on vertical flight efficiency (CCO/CDO)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/traffic/">
+ <span class="dropdown-text"><i class="fas fa-plane-departure"></i> <strong>Traffic</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.eurocontrol.int/Economics/DailyTrafficVariation-States.html"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text"><i class="far fa-star fa-spin fa-fw"></i> Daily Traffic Variation &amp; Restart <i class="far fa-star fa-spin fa-fw"></i></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/traffic/statfor/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Traffic Forecast</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/efficiency/">
+ <span class="dropdown-text"><i class="fas fa-leaf"></i> <strong>Efficiency &amp; Environment</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/efficiency/hfe/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Horizontal Flight Efficiency</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/efficiency/vfe/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Vertical Flight Efficiency</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/efficiency/asma/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Terminal Holdings</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/efficiency/taxiout/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Taxi-out</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/economics/">
+ <span class="dropdown-text"><i class="fas fa-euro-sign"></i> <strong>Economics</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.eurocontrol.int/ServiceUnits/Dashboard/EnRouteMainDashboard.html"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Service Units</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.eurocontrol.int/ServiceUnits/Dashboard/EnRouteUnitRates.html"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Unit Rates and Costs</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/ACE/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">ATM Cost Effectiveness</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/economics/finance/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">ANSPs Financial Situation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/dashboard/stakeholder/">
+ <span class="dropdown-text"><i class="fas fa-user-friends"></i> <strong>Stakeholder views</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/airport/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Airport View</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/ansp/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">ANSP View</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/dashboard/stakeholder/fab/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">FAB View</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/dashboard/stakeholder/state/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">State View</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/publications/">
+ <span class="dropdown-text"><i class="fas fa-book"></i> <strong>Publications</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/reference/">
+ <span class="dropdown-text"><i class="fas fa-hands-helping"></i> <strong>Reference</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/data/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Data Download</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/study/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Studies</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/definition/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Definitions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/methodology/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Methodology</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/">
+ <span class="dropdown-text"><i class="fas fa-external-link-alt"></i> <strong>External</strong></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.eurocontrol.int/prudata/dashboard/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">Single European Sky Portal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www4.icao.int/ganpportal/"><i class="bi bi-arrow-return-right" role="img">
+</i> 
+ <span class="dropdown-text">ICAO GANP</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/about/prc/">
+ <span class="dropdown-text">About the PRC</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://ansperformance.eu/about/us/">
+ <span class="dropdown-text">About the PRU</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
       <h1 class="quarto-secondary-nav-title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Factors affecting performance</span></h1>
@@ -67,14 +263,9 @@
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">ACE Methodology</a> 
-    </div>
-      </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -245,13 +436,13 @@
 </div>
 <p>Most of the managerial and financial aspects are expected to directly affect cost-effectiveness, since they have an impact, for example, on investment decisions, productivity and wage policies. The managerial and financial aspects are to some extent influenced by the ANSP organisational factors and by some of the exogenous factors (especially among the institutional and governance factors, and among the socio-economic factors).</p>
 <hr>
-<p><span class="quarto-unresolved-ref">?fig-operational-setup</span> provides a list of factors that would need to be considered in a comprehensive examination of the influence of <strong>ANSP operational and technical setup</strong> on performance. They mainly relate to the following three issues:</p>
+<p><span class="quarto-unresolved-ref">?fig-operationalsetup</span> provides a list of factors that would need to be considered in a comprehensive examination of the influence of <strong>ANSP operational and technical setup</strong> on performance. They mainly relate to the following three issues:</p>
 <ul>
 <li>Operational structure;</li>
 <li>Operational concepts and processes; and</li>
 <li>Operational flexibility.</li>
 </ul>
-<p><img src="./images/image11.png" id="fig-operational-setup" style="width:2.97361in;height:2.06111in" alt="Operational &amp; technical setup"> |</p>
+<p><img src="./images/image11.png" id="fig-operationalsetup" style="width:2.97361in;height:2.06111in" alt="Operational &amp; technical setup"> |</p>
 <p>The operational and technical setup of an ANSP is expected to be influenced by both exogenous factors (typically the operational environment) and other endogenous factors (such as internal organisation and investment policy). The operational and technical setup is expected to affect both labour and capital productivity and the level of support costs.</p>
 
 

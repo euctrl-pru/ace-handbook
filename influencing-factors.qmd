@@ -114,13 +114,13 @@ Most of the managerial and financial aspects are expected to directly affect cos
 
 ---
 
-@fig-operational-setup provides a list of factors that would need to be considered in a comprehensive examination of the influence of **ANSP operational and technical setup** on performance. They mainly relate to the following three issues: 
+@fig-operationalsetup provides a list of factors that would need to be considered in a comprehensive examination of the influence of **ANSP operational and technical setup** on performance. They mainly relate to the following three issues: 
 
 - Operational structure;
 - Operational concepts and processes; and
 - Operational flexibility. 
 
-![Operational & technical setup](./images/image11.png){#fig-operational-setup width="2.973611111111111in" height="2.061111111111111in"} |
+![Operational & technical setup](./images/image11.png){#fig-operationalsetup width="2.973611111111111in" height="2.061111111111111in"} |
 
 
 The operational and technical setup of an ANSP is expected to be influenced by both exogenous factors (typically the operational environment) and other endogenous factors (such as internal organisation and investment policy). The operational and technical setup is expected to affect both labour and capital productivity and the level of support costs.
