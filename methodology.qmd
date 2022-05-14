@@ -18,7 +18,7 @@ In the ACE 2001-2006 Reports, two different weighting factors were used to compu
 
 Although the composite gate-to-gate output metric does not fully reflect all aspects of the complexity of the services provided, it is nevertheless the best metric currently available for the analysis of gate-to-gate cost-effectiveness[^3].
 
-[^3]: Further details on the theoretical background to producing composite indicators can be found in a working paper on "*Total Factor Productivity of European ANSPs: basic concepts and application*" (Sept. 2005).
+[^3]: Further details on the theoretical background to producing composite indicators can be found in a working paper on "*Total Factor Productivity of European ANSPs: basic concepts and application*" (Sept. 2005) [@prc01/2005].
 
 For the sake of completeness, the gate-to-gate financial cost-effectiveness indicator is broken down into en-route and terminal components, with the output units being en-route flight-hours and IFR airport movements, respectively. There are cases where a high en-route cost per flight-hour correspond to a low terminal cost per IFR airport movement and vice versa.
 
