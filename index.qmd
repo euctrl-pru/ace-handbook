@@ -19,7 +19,7 @@ Digital versions of all the documents listed above as well as the ACE dashboard 
 
 ## Scope of analysis
 
-The ACE report is based on information provided by ANSPs in compliance with Decision No. 88 of the Permanent Commission of EUROCONTROL, which makes annual disclosure of ANS information mandatory, according to the Specification for Economic Information Disclosure (SEID), in all EUROCONTROL Member States. From a methodological point of view, the analysis focusses on gate-to-gate ATM/CNS provision costs and does not address performance relating to:
+The ACE report is based on information provided by ANSPs in compliance with Decision No. 88 of the Permanent Commission of EUROCONTROL [@pc88], which makes annual disclosure of ANS information mandatory, according to the Specification for Economic Information Disclosure (SEID), in all EUROCONTROL Member States. From a methodological point of view, the analysis focusses on gate-to-gate ATM/CNS provision costs and does not address performance relating to:
 
 
 -   oceanic ANS;

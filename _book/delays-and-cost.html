@@ -11,6 +11,25 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
   </style>
 
   <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -313,6 +332,11 @@
   <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./TODOs.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">TODOs</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -334,11 +358,16 @@
 <p>Only airports where the ANSPs are responsible to provide ATC services are taken into account when aggregating airport delays at ANSP level. This is verified each year during the ACE data validation process. Airport ATFM delays also include departure delays.</p>
 <p>ATFM delays are calculated after post-ops and eNM adjustments, which entails a re-allocation of ATFM delays across ACCs in order to account for the initiatives taken to improve performance at network level. This process was initially launched in 2016 but the magnitude of ATFM delay reallocation became really significant in 2018 and 2019 due to the large extent of the measures implemented by the NM. In order to have consistent time series within the ACE report, the adjusted ATFM delays are used retroactively starting from 2016.</p>
 <p>Delays are taken into account independently of their duration. There is no distinction between delays lower or higher than 15 minutes.</p>
-<p>The cost of ATFM delay in this report is based on the <u><strong>European airline delay cost reference values,</strong></u> published by the University of Westminster<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. In each new ACE report, the PRU expresses the cost of one minute of ATFM delay in the price base of the year under review, using the average European Union inflation rate published by EUROSTAT.</p>
+<p>The cost of ATFM delay in this report is based on the <u><strong>European airline delay cost reference values,</strong></u> published by the University of Westminster <span class="citation" data-cites="uow:costofdelay">(<a href="references.html#ref-uow:costofdelay" role="doc-biblioref">University of Westminster 2015</a>)</span>, see<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. In each new ACE report, the PRU expresses the cost of one minute of ATFM delay in the price base of the year under review, using the average European Union inflation rate published by EUROSTAT.</p>
 <p>More detailed information can be found in the updated University of Westminster report, available for download on the PRC web-page (<a href="http://www.eurocontrol.int/ansperformance/prc" class="uri">http://www.eurocontrol.int/ansperformance/prc</a>).</p>
 
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-uow:costofdelay" class="csl-entry" role="doc-biblioentry">
+University of Westminster. 2015. <span>“The Cost of Passenger Delay to Airlines in <span>Europe</span>.”</span> <a href="https://www.eurocontrol.int/publication/european-airline-delay-cost-reference-values">https://www.eurocontrol.int/publication/european-airline-delay-cost-reference-values</a>.
+</div>
+</div>
 <section class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>

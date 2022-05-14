@@ -14,6 +14,7 @@ book:
     - bechmarking-and-ses.qmd
     - monetary-factors.qmd
     - references.qmd
+    - TODOs.qmd
   site-url: "https://eurocontrol.int/"
   link-external-newwindow: true
   navbar:
@@ -166,6 +167,7 @@ book:
             href: "https://ansperformance.eu/about/us/"
 
 bibliography: references.bib
+# csl: ieee-with-url.csl
 
 format:
   html:

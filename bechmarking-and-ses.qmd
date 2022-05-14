@@ -1,6 +1,6 @@
 # ANSP benchmarking and the SES Performance Scheme
 
-The objective of this chapter is to explain the main differences between the ACE financial cost-effectiveness indicator and the Single European Sky (SES) en-route cost-efficiency KPI (as defined in Regulation (EU) N°2019/317 [@cir2019/317]).
+The objective of this chapter is to explain the main differences between the ACE financial cost-effectiveness indicator and the Single European Sky (SES) en-route cost-efficiency KPI (as defined in Regulation (EU) N°2019/317 [@eu2019/317]).
 
 First of all, it should be noted that these two indicators have been specified in response to different needs:
 

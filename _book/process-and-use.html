@@ -11,6 +11,25 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
   </style>
 
   <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -313,6 +332,11 @@
   <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./TODOs.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">TODOs</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -344,9 +368,9 @@
 <p>In order to ensure comparability among ANSPs and the quality of the analysis, the information submitted by the ANSPs is subject to a thorough analysis and verification process which makes extensive use of ANSPs’ Annual Reports and of their statutory financial accounts.</p>
 <p>During this process a number of issues can emerge:</p>
 <ul>
-<li><p>Annual Reports with disclosure of financial accounts are not &gt; available for some ANSPs (see <a href="#sec-annual-report">Section&nbsp;<span>2.2</span></a> below). This removes one &gt; important element in view of validating the financial data &gt; submitted.</p></li>
-<li><p>ANSPs which are involved in non-ANS activities (such as airport &gt; ownership and management) do not necessarily disclose separate &gt; accounts for their ANS and non-ANS activities. This means that the &gt; financial data submitted for the ANS activities cannot be &gt; validated with the information provided in the Annual Report.</p></li>
-<li><p>Except for a few ANSPs, Annual Reports do not disclose the separate &gt; costs for the various segments of ANS (such as en-route and &gt; terminal ANS) which means that the cost breakdown provided under &gt; the En-route and Terminal columns in the ACE data submissions &gt; cannot be fully reconciled.</p></li>
+<li><p>Annual Reports with disclosure of financial accounts are not available for some ANSPs (see <a href="#sec-annual-report">Section&nbsp;<span>2.2</span></a> below). This removes one important element in view of validating the financial data submitted.</p></li>
+<li><p>ANSPs which are involved in non-ANS activities (such as airport ownership and management) do not necessarily disclose separate accounts for their ANS and non-ANS activities. This means that the financial data submitted for the ANS activities cannot be validated with the information provided in the Annual Report.</p></li>
+<li><p>Except for a few ANSPs, Annual Reports do not disclose the separate costs for the various segments of ANS (such as en-route and terminal ANS) which means that the cost breakdown provided under the En-route and Terminal columns in the ACE data submissions cannot be fully reconciled.</p></li>
 </ul>
 <p>As ANSPs progressively comply with the SES Regulation on Service Provision, which requires publication of Annual Reports including statutory accounts, and separation of ANS from non-ANS activity in ANSPs internal accounts, some of these shortcomings are expected to be gradually overcome.</p>
 <p>In most cases, data recorded in the Network Manager (NM) database are used as the basis for the output metrics of the ACE data analysis.</p>
@@ -354,15 +378,20 @@
 <section id="sec-annual-report" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="sec-annual-report"><span class="header-section-number">2.2</span> ANSPs’ Annual Reports</h2>
 <p>ANSPs’ Annual Reports provide a valuable means of validating the ACE data.</p>
-<p>The SES Service Provision Regulation (EC No 550/2004) came into force on 20 April 2004 and is applicable to ANSPs Financial Accounts in all EU Member States (plus Switzerland and Norway). This Regulation is also applicable to States which have signed the ECAA agreement or a Common Aviation Area agreement with the European Union, although the timing of its implementation is not yet decided for individual States. Among other provisions, the SPR requires that ANSPs meet certain standards of information disclosure (transparency) and reporting, and in particular that:</p>
+<p>The SES Service Provision Regulation <span class="citation" data-cites="ec550/2004">(<a href="references.html#ref-ec550/2004" role="doc-biblioref">European Parliament and Council of the European Union 2004</a>)</span> came into force on 20 April 2004 and is applicable to ANSPs Financial Accounts in all EU Member States (plus Switzerland and Norway). This Regulation is also applicable to States which have signed the ECAA agreement or a Common Aviation Area agreement with the European Union, although the timing of its implementation is not yet decided for individual States. Among other provisions, the SPR requires that ANSPs meet certain standards of information disclosure (transparency) and reporting, and in particular that:</p>
 <ul>
-<li><p>ANSPs should draw up, submit to audit and publish their Financial &gt; Accounts (Art.12.1);</p></li>
-<li><p>in all cases, ANSPs should publish an Annual Report and regularly &gt; undergo an independent audit (Art 12.2); and,</p></li>
-<li><p>ANSPs should, in their internal accounting, identify the relevant &gt; costs and income for ANS broken down in accordance with &gt; EUROCONTROL’s principles for establishing the cost-base for route &gt; facility charges and the calculation of unit rates and, where &gt; appropriate, shall keep consolidated accounts for other, non-air &gt; navigation services, as they would be required to do if the &gt; services in question were provided by separate undertakings (Art &gt; 12.3). The latter requirement is particularly relevant for the &gt; ANSPs which are part of an organisation which owns, manages and &gt; operates airports, such as HCAA and DHMI<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p></li>
+<li><p>ANSPs should draw up, submit to audit and publish their Financial Accounts (Art.12.1);</p></li>
+<li><p>in all cases, ANSPs should publish an Annual Report and regularly undergo an independent audit (Art 12.2); and,</p></li>
+<li><p>ANSPs should, in their internal accounting, identify the relevant costs and income for ANS broken down in accordance with EUROCONTROL’s principles for establishing the cost-base for route facility charges and the calculation of unit rates and, where appropriate, shall keep consolidated accounts for other, non-air navigation services, as they would be required to do if the services in question were provided by separate undertakings (Art 12.3). The latter requirement is particularly relevant for the ANSPs which are part of an organisation which owns, manages and operates airports, such as HCAA and DHMI<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p></li>
 </ul>
 
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-ec550/2004" class="csl-entry" role="doc-biblioentry">
+European Parliament, and Council of the European Union. 2004. <span>“Regulation (<span>EC</span>) <span>No</span> 550/2004 of the <span>European Parliament</span> and of the <span>Council</span> of 10 <span>March</span> 2004 on the Provision of Air Navigation Services in the Single <span>European</span> Sky (the Service Provision <span>Regulation</span>) (<span>Text</span> with <span>EEA</span> Relevance).”</span> <span>Official Journal of the European Union</span>. <a href="https://eur-lex.europa.eu/eli/reg/2004/550/oj">https://eur-lex.europa.eu/eli/reg/2004/550/oj</a>.
+</div>
+</div>
 </section>
 <section class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
