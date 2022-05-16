@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://eurocontrol.int/index.html</loc>
-    <lastmod>2022-05-16T09:32:26.012Z</lastmod>
+    <lastmod>2022-05-16T09:43:04.554Z</lastmod>
   </url>
   <url>
     <loc>https://eurocontrol.int/process-and-use.html</loc>
-    <lastmod>2022-05-16T09:19:26.486Z</lastmod>
+    <lastmod>2022-05-16T09:52:17.703Z</lastmod>
   </url>
   <url>
     <loc>https://eurocontrol.int/methodology.html</loc>
-    <lastmod>2022-05-16T09:19:26.491Z</lastmod>
+    <lastmod>2022-05-16T09:59:33.986Z</lastmod>
   </url>
   <url>
     <loc>https://eurocontrol.int/delays-and-cost.html</loc>
-    <lastmod>2022-05-16T09:19:26.495Z</lastmod>
+    <lastmod>2022-05-16T09:55:05.698Z</lastmod>
   </url>
   <url>
     <loc>https://eurocontrol.int/influencing-factors.html</loc>
@@ -22,11 +22,11 @@
   </url>
   <url>
     <loc>https://eurocontrol.int/bechmarking-and-ses.html</loc>
-    <lastmod>2022-05-16T09:19:26.527Z</lastmod>
+    <lastmod>2022-05-16T09:51:12.667Z</lastmod>
   </url>
   <url>
     <loc>https://eurocontrol.int/monetary-factors.html</loc>
-    <lastmod>2022-05-16T09:19:26.532Z</lastmod>
+    <lastmod>2022-05-16T10:00:55.623Z</lastmod>
   </url>
   <url>
     <loc>https://eurocontrol.int/references.html</loc>
@@ -35,5 +35,9 @@
   <url>
     <loc>https://eurocontrol.int/TODOs.html</loc>
     <lastmod>2022-05-14T15:23:58.723Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eurocontrol.int/disclaimer.html</loc>
+    <lastmod>2022-05-16T09:48:18.568Z</lastmod>
   </url>
 </urlset>
