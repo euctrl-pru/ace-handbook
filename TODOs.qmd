@@ -4,7 +4,7 @@
 1. ~~insert links and QR code at end of section 1.1~~
 1. create a group library on Zotero for biblio entries:
    - ~~sec 1.2~~: ~~Decision No. 88 of the Permanent Commission of EUROCONTROL~~
-   - sec 1.2: Specification for Economic Information Disclosure (SEID)
+   - ~~sec 1.2: Specification for Economic Information Disclosure (SEID)~~
    - sec 2.1: SES Regulation on Service Provision
    - ~~sec 2.2~~: ~~SES Service Provision Regulation (EC No 550/2004)~~
    - sec 3.1: ACE 2001-2006 Reports

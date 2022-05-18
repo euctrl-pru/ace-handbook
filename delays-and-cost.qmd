@@ -2,7 +2,7 @@
 
 The quality of service provided by ANSPs has an impact on the efficiency of aircraft operations, which carry with them additional costs that need to be taken into consideration for a full economic assessment of ANSP performance. In the ACE benchmarking reports, an indicator of "economic" cost-effectiveness is computed at ANSP and Pan-European system levels by adding the ATM/CNS provision costs and the costs of ATFM ground delay, all expressed per composite flight-hour.
 
-![Framework for economic cost-effectiveness performance analysis](./images/image4.png){#fig-framework-economic width="4.461975065616798in" height="3.319673009623797in"}
+![Framework for economic cost-effectiveness performance analysis](./images/image4.png){#fig-framework-economic width="100%"}
 
 ATFM delays used in the ACE analysis are extracted from the Network Manager database. All delay causes (e.g. capacity, weather, etc.) are considered.
 

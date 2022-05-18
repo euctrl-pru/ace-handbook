@@ -24,7 +24,7 @@ For the sake of completeness, the gate-to-gate financial cost-effectiveness indi
 
 The PRU has developed an analytical framework that allows cost-effectiveness to be broken down into a number of key components. This framework helps in understanding differences in cost-effectiveness by allowing examination of the detailed factors underlying it. It is important to note that the focus of the ACE analysis is on the ATM/CNS provision costs incurred by the ANSP. MET costs, EUROCONTROL costs and States/NSAs costs are not included as not always under the ANSPs direct management control.
 
-![Performance framework for gate-to-gate cost-effectiveness analysis](./images/image3.png){#fig-framework-g2g width="6.134722222222222in" height="5.565906605424322in"}
+![Performance framework for gate-to-gate cost-effectiveness analysis](./images/image3.png){#fig-framework-g2g width="100%"}
 
 
 The right-hand side of the @fig-framework-g2g above shows that the financial cost-effectiveness indicator (ATM/CNS provision costs per composite flight-hour) is made up of three component performance **ratios**:

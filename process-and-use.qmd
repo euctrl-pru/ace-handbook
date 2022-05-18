@@ -4,7 +4,7 @@
 
 The ACE report is produced by the Performance Review Unit with the support of the ACE Working Group, including ANSPs, regulatory authorities and airspace users' representatives. The process leading to the production of the ACE report, which comprises data analysis and consultation, is summarised in @fig-process below.
 
-![Data analysis, processing and reporting](images/image2.png){#fig-process width="5.708661417322834in" height="2.279527559055118in"}
+![Data analysis, processing and reporting](images/image2.png){#fig-process width="100%"}
 
 In order to ensure comparability among ANSPs and the quality of the analysis, the information submitted by the ANSPs is subject to a thorough analysis and verification process which makes extensive use of ANSPs' Annual Reports and of their statutory financial accounts.
 

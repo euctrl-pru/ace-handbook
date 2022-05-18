@@ -10,7 +10,7 @@ First of all, it should be noted that these two indicators have been specified i
 
 The ACE benchmarking reports complement the SES target setting and monitoring activities by providing a detailed comparison of cost-effectiveness performance at ANSP level including a trend analysis of three main economic drivers (productivity, employment costs and support costs).
 
-![ACE cost-effectiveness indicator and SES cost-efficiency KPI](./images/image12.png){#fig-indicator-and-kpi width="4.287999781277341in" height="3.144215879265092in"}
+![ACE cost-effectiveness indicator and SES cost-efficiency KPI](./images/image12.png){#fig-indicator-and-kpi width="100%"}
 
 As shown in @fig-indicator-and-kpi, the main differences between the ACE financial cost-effectiveness indicator and the SES en-route cost-efficiency KPI are the following:
 
