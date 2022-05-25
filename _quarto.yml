@@ -176,6 +176,7 @@ format:
       - cosmo
       - custom.scss
     code-link: true
+    cover-image: cover.png
     include-in-header:
       - media/fontawesome.html
   pdf:
