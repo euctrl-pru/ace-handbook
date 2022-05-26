@@ -176,6 +176,50 @@ book:
           - text: "<i class='fas fa-biohazard'></i> COVID-19 crisis"
             href: "https://ansperformance.eu/covid/"
           - text: "---"
+          - text: "Traffic"
+            href: "https://ansperformance.eu/traffic/"
+          - text: "Capacity & delays"
+            href: "https://ansperformance.eu/capacity/"
+          - text: "Efficiency & environment"
+            href: "https://ansperformance.eu/efficiency/"
+          - text: "Economics"
+            href: "https://ansperformance.eu/economics/"
+
+      - text: "Views"
+        menu:
+          - text: "Airports"
+            href: "https://ansperformance.eu/dashboard/stakeholder/airport/"
+          - text: "Air Navigation Service Provider"
+            href: "https://ansperformance.eu/ansp/"
+          - text: "Functional Airspace Block"
+            href: "https://ansperformance.eu/fab/"
+          - text: "State"
+            href: "https://ansperformance.eu/dashboard/stakeholder/state/"
+
+      - text: "Publications"
+        href: "https://ansperformance.eu/publications/"
+
+      - text: "Reference"
+        menu:
+          - text: "Data downloads"
+            href: "https://ansperformance.eu/data/"
+          - text: "Definitions"
+            href: "https://ansperformance.eu/definition/"
+          - text: "Methodology"
+            href: "https://ansperformance.eu/methodology/"
+          - text: "Acronyms"
+            href: "https://ansperformance.eu/acronym/"
+          - text: "Bibliography"
+            href: "https://ansperformance.eu/bibliography/"
+          - text: "---"
+          - text: "<i class='fas fa-xs fa-external-link-alt'></i> ICAO GANP"
+            href: "https://www4.icao.int/ganpportal/"
+
+
+      - text: "SES"
+        menu:
+          - text: "<i class='fas fa-xs fa-external-link-alt'></i> Single European Sky (SES) Portal"
+            href: "https://www.eurocontrol.int/prudata/dashboard/"
 
 bibliography: references.bib
 # csl: ieee-with-url.csl
