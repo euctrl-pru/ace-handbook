@@ -16,7 +16,7 @@ During this process a number of issues can emerge:
 
 -   Except for a few ANSPs, Annual Reports do not disclose the separate costs for the various segments of ANS (such as en-route and  terminal ANS) which means that the cost breakdown provided under  the En-route and Terminal columns in the ACE data submissions  cannot be fully reconciled.
 
-As ANSPs progressively comply with the SES Regulation on Service Provision, which requires publication of Annual Reports including statutory accounts, and separation of ANS from non-ANS activity in ANSPs internal accounts, some of these shortcomings are expected to be gradually overcome.
+As ANSPs progressively comply with the SES Regulation on Service Provision [@ec550/2004], which requires publication of Annual Reports including statutory accounts, and separation of ANS from non-ANS activity in ANSPs internal accounts, some of these shortcomings are expected to be gradually overcome.
 
 In most cases, data recorded in the Network Manager (NM) database are used as the basis for the output metrics of the ACE data analysis.
 

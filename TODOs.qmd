@@ -5,9 +5,9 @@
 1. create a group library on Zotero for biblio entries:
    - ~~sec 1.2~~: ~~Decision No. 88 of the Permanent Commission of EUROCONTROL~~
    - ~~sec 1.2: Specification for Economic Information Disclosure (SEID)~~
-   - sec 2.1: SES Regulation on Service Provision
+   - ~~sec 2.1: SES Regulation on Service Provision~~
    - ~~sec 2.2~~: ~~SES Service Provision Regulation (EC No 550/2004)~~
-   - sec 3.1: ACE 2001-2006 Reports
+   - ~~sec 3.1: ACE 2001-2006 Reports~~
    - chap 3 footnote 2: ~~Total Factor Productivity of European ANSPs: basic concepts and application” (Sept. 2005)~~
    - ch 4 nd footnote: ~~European airline delay cost reference values, published by the University of Westminster~~
    - what about (Eurostat or IMF): 
