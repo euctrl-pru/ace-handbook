@@ -24,7 +24,7 @@ book:
     title: false
     logo: "images/EUROCONTROL-logo-standard-rgb.svg"
     left:
-      - text: "Aviation Intelligence"
+      - text: "<i class='far fa-star fa-spin fa-fw'></i> Aviation Intelligence"
         icon: "star"
         menu:
           - text: "**Home**"
