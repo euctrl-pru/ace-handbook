@@ -46,9 +46,9 @@ book:
             icon: "arrow-return-right"
             href: "https://ansperformance.eu/covid/acft_ground/"
 
-          - text: "Impact on en-route revenues"
+          - text: "Impact on ANSPs financial situation"
             icon: "arrow-return-right"
-            href: "https://ansperformance.eu/covid/covid_ert_rev"
+            href: "https://ansperformance.eu/economics/finance/"
 
           - text: "Impact on vertical flight efficiency (CCO/CDO)"
             icon: "arrow-return-right"
@@ -166,6 +166,16 @@ book:
             href: "https://ansperformance.eu/about/prc/"
           - text: "About the PRU"
             href: "https://ansperformance.eu/about/us/"
+          - text: "Release notes"
+            href: "https://ansperformance.eu/post/"
+          - text: "Disclaimer"
+            href: "https://ansperformance.eu/about/disclaimer/"
+
+      - text: "Areas"
+        menu:
+          - text: "<i class='fas fa-biohazard'></i> COVID-19 crisis"
+            href: "https://ansperformance.eu/covid/"
+          - text: "---"
 
 bibliography: references.bib
 # csl: ieee-with-url.csl
@@ -179,5 +189,3 @@ format:
     cover-image: cover.png
     include-in-header:
       - media/fontawesome.html
-  pdf:
-    documentclass: scrreprt
