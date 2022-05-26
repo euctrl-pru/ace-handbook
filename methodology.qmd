@@ -14,7 +14,7 @@ The composite gate-to-gate flight-hours are consequently defined as:
 |:-----------------------------------------------------------------------------------------------|
 | *Composite gate-to-gate flight-hours = En-route flight-hours + (0.27 x IFR airport movements)* |
 
-In the ACE 2001-2006 Reports [@ace2001;ace2002;@ace2003;@ace2003;@ace2004;@ace2005;@ace2006], two different weighting factors were used to compute ANSPs cost-effectiveness: one for the year under study and another to examine changes in performance across time. As the ACE data sample became larger in terms of years, the difference between these two weighting factors became insignificant. For the sake of simplicity, it was therefore proposed in the ACE 2007 benchmarking report to use only one weighting factor to analyse ANSPs performance for the year and to examine historical changes in cost-effectiveness.
+In the ACE 2001-2006 Reports [@ace2001;@ace2002;@ace2003;@ace2003;@ace2004;@ace2005;@ace2006], two different weighting factors were used to compute ANSPs cost-effectiveness: one for the year under study and another to examine changes in performance across time. As the ACE data sample became larger in terms of years, the difference between these two weighting factors became insignificant. For the sake of simplicity, it was therefore proposed in the ACE 2007 benchmarking report to use only one weighting factor to analyse ANSPs performance for the year and to examine historical changes in cost-effectiveness.
 
 Although the composite gate-to-gate output metric does not fully reflect all aspects of the complexity of the services provided, it is nevertheless the best metric currently available for the analysis of gate-to-gate cost-effectiveness[^3].
 
