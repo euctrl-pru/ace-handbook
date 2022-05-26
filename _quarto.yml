@@ -164,10 +164,13 @@ book:
         menu:
           - text: "About the PRC"
             href: "https://ansperformance.eu/about/prc/"
+
           - text: "About the PRU"
             href: "https://ansperformance.eu/about/us/"
+
           - text: "Release notes"
             href: "https://ansperformance.eu/post/"
+
           - text: "Disclaimer"
             href: "https://ansperformance.eu/about/disclaimer/"
 
@@ -175,13 +178,18 @@ book:
         menu:
           - text: "<i class='fas fa-biohazard'></i> COVID-19 crisis"
             href: "https://ansperformance.eu/covid/"
+
           - text: "---"
+
           - text: "Traffic"
             href: "https://ansperformance.eu/traffic/"
+
           - text: "Capacity & delays"
             href: "https://ansperformance.eu/capacity/"
+
           - text: "Efficiency & environment"
             href: "https://ansperformance.eu/efficiency/"
+
           - text: "Economics"
             href: "https://ansperformance.eu/economics/"
 
@@ -189,10 +197,13 @@ book:
         menu:
           - text: "Airports"
             href: "https://ansperformance.eu/dashboard/stakeholder/airport/"
+
           - text: "Air Navigation Service Provider"
             href: "https://ansperformance.eu/ansp/"
+
           - text: "Functional Airspace Block"
             href: "https://ansperformance.eu/fab/"
+
           - text: "State"
             href: "https://ansperformance.eu/dashboard/stakeholder/state/"
 
@@ -203,18 +214,23 @@ book:
         menu:
           - text: "Data downloads"
             href: "https://ansperformance.eu/data/"
+
           - text: "Definitions"
             href: "https://ansperformance.eu/definition/"
+
           - text: "Methodology"
             href: "https://ansperformance.eu/methodology/"
+
           - text: "Acronyms"
             href: "https://ansperformance.eu/acronym/"
+
           - text: "Bibliography"
             href: "https://ansperformance.eu/bibliography/"
+
           - text: "---"
+
           - text: "<i class='fas fa-xs fa-external-link-alt'></i> ICAO GANP"
             href: "https://www4.icao.int/ganpportal/"
-
 
       - text: "SES"
         menu:
