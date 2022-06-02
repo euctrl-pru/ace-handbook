@@ -15,7 +15,6 @@ book:
     - monetary-factors.qmd
     - references.qmd
     - disclaimer.qmd
-    - TODOs.qmd
   site-url: "https://eurocontrol.int/"
   navbar:
     background: light
