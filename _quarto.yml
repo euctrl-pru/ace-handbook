@@ -4,7 +4,7 @@ project:
 book:
   title: "ACE Handbook"
   author: "Performance Review Unit"
-  date: "2022-04-22"
+  date: "2022-06-01"
   chapters:
     - index.qmd
     - process-and-use.qmd
@@ -17,7 +17,6 @@ book:
     - disclaimer.qmd
     - TODOs.qmd
   site-url: "https://eurocontrol.int/"
-  link-external-newwindow: true
   navbar:
     background: light
     search: false
@@ -247,6 +246,8 @@ format:
       - custom.scss
     code-link: true
     cover-image: cover.png
+    link-external-newwindow: true
+    link-external-icon: true
     include-in-header:
       - media/fontawesome.html
       # UNCOMMENT for activating GA

@@ -481,7 +481,7 @@ div.csl-indent {
 <p>Only airports where the ANSPs are responsible to provide ATC services are taken into account when aggregating airport delays at ANSP level. This is verified each year during the ACE data validation process. Airport ATFM delays also include departure delays.</p>
 <p>ATFM delays are calculated after post-ops and eNM adjustments, which entails a re-allocation of ATFM delays across ACCs in order to account for the initiatives taken to improve performance at network level. This process was initially launched in 2016 but the magnitude of ATFM delay reallocation became really significant in 2018 and 2019 due to the large extent of the measures implemented by the NM. In order to have consistent time series within the ACE report, the adjusted ATFM delays are used retroactively starting from 2016.</p>
 <p>Delays are taken into account independently of their duration. There is no distinction between delays lower or higher than 15 minutes.</p>
-<p>The cost of ATFM delay in this report is based on the <u><strong>European airline delay cost reference values,</strong></u> published by the University of Westminster <span class="citation" data-cites="uow:costofdelay">(<a href="references.html#ref-uow:costofdelay" role="doc-biblioref">University of Westminster 2015</a>)</span>, see<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. In each new ACE report, the PRU expresses the cost of one minute of ATFM delay in the price base of the year under review, using the average European Union inflation rate published by EUROSTAT.</p>
+<p>The cost of ATFM delay in this report is based on the <u><strong>European airline delay cost reference values,</strong></u> published by the University of Westminster <span class="citation" data-cites="uow:costofdelay">(<a href="references.html#ref-uow:costofdelay" role="doc-biblioref">University of Westminster 2015</a>)</span>. In each new ACE report, the PRU expresses the cost of one minute of ATFM delay in the price base of the year under review, using the average European Union inflation rate published by EUROSTAT.</p>
 <p>More detailed information can be found in the updated University of Westminster report, available for download on the PRC web-page (<a href="http://www.eurocontrol.int/ansperformance/prc" class="uri">http://www.eurocontrol.int/ansperformance/prc</a>).</p>
 
 
@@ -490,12 +490,6 @@ div.csl-indent {
 University of Westminster. 2015. <span>“European Airline Delay Cost Reference Values.”</span> <a href="https://www.eurocontrol.int/publication/european-airline-delay-cost-reference-values">https://www.eurocontrol.int/publication/european-airline-delay-cost-reference-values</a>.
 </div>
 </div>
-<section class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn1" role="doc-endnote"><p>European airline delay cost reference values (December 2015), available at: <a href="http://www.eurocontrol.int/publications/european-airline-delay-cost-reference-values" class="uri">http://www.eurocontrol.int/publications/european-airline-delay-cost-reference-values</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -575,6 +569,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return popup.innerHTML;
     });
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/https:\/\/eurocontrol\.int\//);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 <nav class="page-navigation">
