@@ -247,6 +247,7 @@ format:
     cover-image: cover.png
     link-external-newwindow: true
     link-external-icon: true
+    link-external-filter: '^(?:http:|https:)\/\/ansperformance\.eu\/'
     include-in-header:
       - media/fontawesome.html
       # UNCOMMENT for activating GA
