@@ -1,4 +1,4 @@
-# Treatment of monetary factors in the ace benchmarking analysis
+# Treatment of monetary factors in the ACE benchmarking analysis
 
 Presentation and comparison of historical series of financial data from different countries poses problems, especially when different currencies are involved, and inflation rates differ. There is a danger that time-series comparisons can be distorted by transient variations in exchange rates.
 
