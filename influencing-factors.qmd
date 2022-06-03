@@ -31,18 +31,17 @@ Capturing the local impact of an exogenous factor on ANSPs performance is not a 
 
 The **legal and socio-economic conditions** prevailing in individual countries are affected by national policy-makers at a more general level (for example taxation policy), or by national and international macro-economic conditions. Major examples include the prevailing national wage rates, and levels and systems of taxation. 
 
+Some examples that affect ATM cost-effectiveness performance are illustrated in @fig-legal-socio.
+ 
 ![Legal & socio-economic conditions](./images/image6.png){#fig-legal-socio width="70%"} 
 
- Some examples that affect ATM cost-effectiveness performance are illustrated in @fig-legal-socio.
- 
- 
 ---
 
 The **operational conditions**, such as the traffic patterns the ANSP has to deal with, are determined by decisions made by airports, airlines, and especially, flying travellers.
 
-![Operational conditions](./images/image7.png){#fig-operational-conditions width="70%"} 
-
 Operational conditions include a number of factors, summarised in @fig-operational-conditions. 
+
+![Operational conditions](./images/image7.png){#fig-operational-conditions width="70%"} 
 
 Operational conditions undoubtedly have a direct impact on cost-effectiveness performance, although the extent and magnitude of the impact is not straightforward to isolate.   
 
@@ -51,13 +50,15 @@ Operational conditions undoubtedly have a direct impact on cost-effectiveness pe
 
 The **institutional and governance arrangements** for ANS in a particular country are set in place by the policies and specific aviation laws of each country. These factors are exogenous to the ANSP but decision-making concerning some of them is largely driven by national aviation policy-makers. Some of these factors relate to international requirements such as those imposed by ICAO, EUROCONTROL and the Single European Sky. These policies at State and European level are subject to changes given strategic objectives for the sector.
 
-![Institutional & governance arrangements](./images/image8.png){#fig-institutional-arrangements width="70%"} 
-
  @fig-institutional-arrangements provides a list of such factors, relating to:                                    
 
 - the way ANS is regulated;
 - the institutional structure surrounding ANS, the ANSP ownership and control structure; and
 - the civil/military arrangements.
+
+
+![Institutional & governance arrangements](./images/image8.png){#fig-institutional-arrangements width="70%"} 
+
 
 ---
 
