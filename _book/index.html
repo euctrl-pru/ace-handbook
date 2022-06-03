@@ -501,11 +501,11 @@ div.csl-indent {
 <li><p><strong>ANSP factsheets and individual ANSP short reports</strong> (previously Part II of the ACE reports) are now only published on the web.</p></li>
 </ol>
 <p><strong>The ACE Dashboard</strong> continues to provide interactive functionalities that allow users to design and customise original analyses and presentations based on ACE data (starting in 2003 and updated one a year). The dashboard also gives access to individual ANSP short reports.</p>
-<p>Digital versions of all the documents listed above as well as the ACE dashboard can be accessed at the following address: <a href="https://ansperformance.eu/economics/ace-overview/">https://ansperformance.eu/economics/ace-overview/</a></p>
+<p>Digital versions of all the documents listed above as well as the ACE dashboard can be accessed at the following address: <a href="https://ansperformance.eu/economics/ace-overview/" target="_blank">https://ansperformance.eu/economics/ace-overview/</a></p>
 </section>
 <section id="scope-of-analysis" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="scope-of-analysis"><span class="header-section-number">1.2</span> Scope of analysis</h2>
-<p>The ACE report is based on information provided by ANSPs in compliance with Decision No.&nbsp;88 of the Permanent Commission of EUROCONTROL <span class="citation" data-cites="pc88">(<a href="references.html#ref-pc88" role="doc-biblioref">Permanent Commission for the Safety of Air Navigation 2015</a>)</span>, which makes annual disclosure of ANS information mandatory, according to the Specification for Economic Information Disclosure (SEID) <span class="citation" data-cites="seid">(<a href="references.html#ref-seid" role="doc-biblioref">EUROCONTROL 2012</a>)</span>, in all EUROCONTROL Member States. From a methodological point of view, the analysis focusses on gate-to-gate ATM/CNS provision costs and does not address performance relating to:</p>
+<p>The ACE report is based on information provided by ANSPs in compliance with Decision No.&nbsp;88 of the Permanent Commission of EUROCONTROL <span class="citation" data-cites="pc88">(<a href="references.html#ref-pc88" role="doc-biblioref">Permanent Commission for the Safety of Air Navigation 2015</a>)</span>, which makes annual disclosure of ANS information mandatory, according to the Specification for Economic Information Disclosure (SEID) <span class="citation" data-cites="seid">(<a href="references.html#ref-seid" role="doc-biblioref">EUROCONTROL 2012</a>)</span>, in all EUROCONTROL Member States. From a methodological point of view, the analysis focuses on gate-to-gate ATM/CNS provision costs and does not address performance relating to:</p>
 <ul>
 <li><p>oceanic ANS;</p></li>
 <li><p>services provided to military operational air traffic (OAT); or,</p></li>
@@ -604,7 +604,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/^(?:http:|https:)\/\/ansperformance\.eu\//);
+      var filterRegex = new RegExp(/^(?:http:|https:)\/\/ansperformance\.eu\/|^(?:http:|https:)\/\/.*ace-handbook\.netlify\.app\//);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
