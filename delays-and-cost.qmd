@@ -12,9 +12,5 @@ ATFM delays are calculated after post-ops and eNM adjustments, which entails a r
 
 Delays are taken into account independently of their duration. There is no distinction between delays lower or higher than 15 minutes.
 
-The cost of ATFM delay in this report is based on the [**European airline delay cost reference values,**]{.underline} published by the University of Westminster [@uow:costofdelay], see[^4]. In each new ACE report, the PRU expresses the cost of one minute of ATFM delay in the price base of the year under review, using the average European Union inflation rate published by EUROSTAT.
-
-[^4]: European airline delay cost reference values (December 2015), available at: <http://www.eurocontrol.int/publications/european-airline-delay-cost-reference-values>.
-
-More detailed information can be found in the updated University of Westminster report, available for download on the PRC web-page (<http://www.eurocontrol.int/ansperformance/prc>).
+The cost of ATFM delay in this report is based on the [**European airline delay cost reference values,**]{.underline} published by the University of Westminster [@uow:costofdelay]. In each new ACE report, the PRU expresses the cost of one minute of ATFM delay in the price base of the year under review, using the average European Union inflation rate published by EUROSTAT.
 

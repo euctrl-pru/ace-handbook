@@ -1,10 +1,28 @@
 project:
   type: book
 
+bibliography: references.bib
+# csl: ieee-with-url.csl
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    code-link: true
+    cover-image: cover.png
+    link-external-newwindow: true
+    link-external-icon: true
+    link-external-filter: '^(?:http:|https:)\/\/ansperformance\.eu\/|^(?:http:|https:)\/\/.*ace-handbook\.netlify\.app\/'
+    include-in-header:
+      - media/fontawesome.html
+      # UNCOMMENT for activating GA
+      - media/analytics.html
+
 book:
   title: "ACE Handbook"
   author: "Performance Review Unit"
-  date: "2022-04-22"
+  date: "2022-06-01"
   chapters:
     - index.qmd
     - process-and-use.qmd
@@ -15,9 +33,7 @@ book:
     - monetary-factors.qmd
     - references.qmd
     - disclaimer.qmd
-    - TODOs.qmd
   site-url: "https://eurocontrol.int/"
-  link-external-newwindow: true
   navbar:
     background: light
     search: false
@@ -237,17 +253,3 @@ book:
           - text: "<i class='fas fa-xs fa-external-link-alt'></i> Single European Sky (SES) Portal"
             href: "https://www.eurocontrol.int/prudata/dashboard/"
 
-bibliography: references.bib
-# csl: ieee-with-url.csl
-
-format:
-  html:
-    theme:
-      - cosmo
-      - custom.scss
-    code-link: true
-    cover-image: cover.png
-    include-in-header:
-      - media/fontawesome.html
-      # UNCOMMENT for activating GA
-      - media/analytics.html

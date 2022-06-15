@@ -8,7 +8,7 @@ However, such a factual analysis cannot be either a complete explanation of perf
 
 The framework illustrated in @fig-factors-cost below shows **exogenous** (outside the control of ANSPs) and **endogenous** (under ANSPs' control) factors which influence ANSP performance.
 
-![Factors affecting cost-effectiveness performance](./images/image5.png){#fig-factors-cost width="100%"}
+![Factors affecting cost-effectiveness performance](./images/image5.png){#fig-factors-cost width="80%"}
 
 ## Exogenous factors
 
@@ -31,18 +31,17 @@ Capturing the local impact of an exogenous factor on ANSPs performance is not a 
 
 The **legal and socio-economic conditions** prevailing in individual countries are affected by national policy-makers at a more general level (for example taxation policy), or by national and international macro-economic conditions. Major examples include the prevailing national wage rates, and levels and systems of taxation. 
 
-![Legal & socio-economic conditions](./images/image6.png){#fig-legal-socio width="100%"} 
+Some examples that affect ATM cost-effectiveness performance are illustrated in @fig-legal-socio.
+ 
+![Legal & socio-economic conditions](./images/image6.png){#fig-legal-socio width="70%"} 
 
- Some examples that affect ATM cost-effectiveness performance are illustrated in @fig-legal-socio.
- 
- 
 ---
 
 The **operational conditions**, such as the traffic patterns the ANSP has to deal with, are determined by decisions made by airports, airlines, and especially, flying travellers.
 
-![Operational conditions](./images/image7.png){#fig-operational-conditions width="100%"} 
-
 Operational conditions include a number of factors, summarised in @fig-operational-conditions. 
+
+![Operational conditions](./images/image7.png){#fig-operational-conditions width="70%"} 
 
 Operational conditions undoubtedly have a direct impact on cost-effectiveness performance, although the extent and magnitude of the impact is not straightforward to isolate.   
 
@@ -51,13 +50,15 @@ Operational conditions undoubtedly have a direct impact on cost-effectiveness pe
 
 The **institutional and governance arrangements** for ANS in a particular country are set in place by the policies and specific aviation laws of each country. These factors are exogenous to the ANSP but decision-making concerning some of them is largely driven by national aviation policy-makers. Some of these factors relate to international requirements such as those imposed by ICAO, EUROCONTROL and the Single European Sky. These policies at State and European level are subject to changes given strategic objectives for the sector.
 
-![Institutional & governance arrangements](./images/image8.png){#fig-institutional-arrangements width="100%"} 
-
  @fig-institutional-arrangements provides a list of such factors, relating to:                                    
 
 - the way ANS is regulated;
 - the institutional structure surrounding ANS, the ANSP ownership and control structure; and
 - the civil/military arrangements.
+
+
+![Institutional & governance arrangements](./images/image8.png){#fig-institutional-arrangements width="70%"} 
+
 
 ---
 
@@ -91,7 +92,7 @@ Endogenous factors fall into three groups:
 - Human resources; and                                                                                            
 - Relationship with customer.
 
-![Organisational factors](./images/image9.png){#fig-org-factors width="100%"}     
+![Organisational factors](./images/image9.png){#fig-org-factors width="70%"}     
 
 
 Not all organisational factors will directly affect cost-effectiveness; some enable or facilitate the achievement of performance when they are set in conformity with the business objectives. It is likely that no single model should constitute "best practice" in all circumstances.
@@ -104,7 +105,7 @@ Not all organisational factors will directly affect cost-effectiveness; some ena
 - The collective bargaining process; and
 - Financial and accounting considerations.                                                                                                                                                                                       
 
-![Managerial & financial aspects](./images/image10.png){#fig-managerial width="100%"}
+![Managerial & financial aspects](./images/image10.png){#fig-managerial width="70%"}
 
 
 
@@ -123,7 +124,7 @@ on performance. They mainly relate to the following three issues:
 - Operational concepts and processes; and
 - Operational flexibility. 
 
-![Operational & technical setup](./images/image11.png){#fig-operational-setup width="100%"} 
+![Operational & technical setup](./images/image11.png){#fig-operational-setup width="70%"} 
 
 
 

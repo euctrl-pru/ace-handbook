@@ -432,7 +432,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./monetary-factors.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Treatment of monetary factors in the ace benchmarking analysis</span></a>
+  <a href="./monetary-factors.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Treatment of monetary factors in the ACE benchmarking analysis</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -443,11 +443,6 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./disclaimer.html" class="sidebar-item-text sidebar-link">Disclaimer</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./TODOs.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">TODOs</span></a>
   </div>
 </li>
     </ul>
@@ -574,7 +569,7 @@ div.csl-indent {
 <ol start="4" type="a">
 <li><strong>Exceptional costs</strong>, which typically represent a very small proportion of support costs.</li>
 </ol>
-<p>There are significant differences in the composition of support costs amongst the 38 ANSPs, and in particular in the proportion of employment costs and non-staff operating costs. The choice between providing some important operational support functions internally or externally has clearly an impact on the proportion of support costs that is classified as employment costs, non-staff operating costs, or capital-related costs. In some cases, the maintenance of ATM systems is outsourced and the corresponding costs are reported as non-staff operating costs. For other ANSPs, these activities are rather carried out by internal staff and the related costs appear as employment costs or as capital-related costs when, according to <a href="https://www.ifrs.org/">IFRS</a>, the employment costs of staff working on R&amp;D projects can be capitalised in the balance-sheet.</p>
+<p>There are significant differences in the composition of support costs amongst the 38 ANSPs, and in particular in the proportion of employment costs and non-staff operating costs. The choice between providing some important operational support functions internally or externally has clearly an impact on the proportion of support costs that is classified as employment costs, non-staff operating costs, or capital-related costs. In some cases, the maintenance of ATM systems is outsourced and the corresponding costs are reported as non-staff operating costs. For other ANSPs, these activities are rather carried out by internal staff and the related costs appear as employment costs or as capital-related costs when, according to IFRS, the employment costs of staff working on R&amp;D projects can be capitalised in the balance-sheet.</p>
 <p>Employment costs are typically subject to complex bargaining agreements between ANSPs management and staff which usually are embedded into a collective agreement. The duration of the collective agreement, the terms and methods for renegotiation greatly vary across ANSPs. In some cases salary conditions are negotiated every year. High ATCO employment costs may be compensated for by high productivity. Therefore, in the context of staff planning and contract renegotiation, it is important for ANSPs to manage ATCOs employment costs effectively and to set quantitative objectives for ATCO productivity while providing sufficient capacity in order to minimise ATFM delays.</p>
 
 
@@ -691,6 +686,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return popup.innerHTML;
     });
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/^(?:http:|https:)\/\/ansperformance\.eu\/|^(?:http:|https:)\/\/.*ace-handbook\.netlify\.app\//);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 <nav class="page-navigation">
