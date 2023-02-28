@@ -31,6 +31,7 @@ book:
     - influencing-factors.qmd
     - bechmarking-and-ses.qmd
     - monetary-factors.qmd
+    - detail-ace-indicators.qmd
     - references.qmd
     - disclaimer.qmd
   site-url: "https://eurocontrol.int/"
