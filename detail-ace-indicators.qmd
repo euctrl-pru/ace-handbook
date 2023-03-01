@@ -18,7 +18,7 @@ The main indicators used in ACE to analyse ANSPs cost-effectiveness are:
 
 -   ATCO employment costs per ATCO-hour; and,
 
--   support cost per composite flight-hour.
+-   support costs per composite flight-hour.
 
 The table below presents the formulas used to calculate these indicators with reference to the [SEID](https://www.eurocontrol.int/publication/eurocontrol-specification-economic-information-disclosure) item numbers.
 
