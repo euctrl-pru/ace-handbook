@@ -22,7 +22,7 @@ format:
 book:
   title: "ACE Handbook"
   author: "Performance Review Unit"
-  date: "2022-06-01"
+  date: "2023-03-01"
   chapters:
     - index.qmd
     - process-and-use.qmd
