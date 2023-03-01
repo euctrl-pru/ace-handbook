@@ -1,0 +1,75 @@
+---
+format:
+  html: 
+    css: c8styles.css
+---
+
+# Detailed information on the calculation of ACE indicators
+
+## Cost-effectiveness indicators
+
+The main indicators used in ACE to analyse ANSPs cost-effectiveness are:
+
+-   economic cost-effectiveness;
+
+-   financial cost-effectiveness;
+
+-   ATCO-hour productivity;
+
+-   ATCO employment costs per ATCO-hour; and,
+
+-   support costs per composite flight-hour.
+
+The table below presents the formulas used to calculate these indicators with reference to the [SEID](https://www.eurocontrol.int/publication/eurocontrol-specification-economic-information-disclosure) item numbers.
+
++----------+-----------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| \#       | Indicator                               | Formula                                                                                | Source                                                                                                                                                                           |
++==========+=========================================+========================================================================================+==================================================================================================================================================================================+
+| 1        | Composite flight-hours                  | En-route flight-hours +(0.27×IFR airport movements)                                    | ***En-route flight-hours:*** Item D16, continental ANS                                                                                                                           |
+|          |                                         |                                                                                        |                                                                                                                                                                                  |
+|          |                                         |                                                                                        | ***IFR airport movements:*** Item D18, SES airports + Non-SES airports                                                                                                           |
+|          |                                         |                                                                                        |                                                                                                                                                                                  |
+|          |                                         |                                                                                        | **0.27** is the two-digits rounded weighting factor (see @sec-method)                                                                                                            |
++----------+-----------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2        | Economic cost-effectiveness             | (Total service provision costs+Total costs of ATFM delays)/(Composite flight-hours)    | ***Total service provision costs:*** Item A15 (en-route + terminal columns)                                                                                                      |
+|          |                                         |                                                                                        |                                                                                                                                                                                  |
+|          |                                         |                                                                                        | ***Total costs of ATFM delays:*** Minutes of ATFM delays extracted from the Network manager database, monetarised using the cost of a minute of ATFM delays (see @sec-delay-cef) |
+|          |                                         |                                                                                        |                                                                                                                                                                                  |
+|          |                                         |                                                                                        | ***Composite flight-hours:*** Formula #1                                                                                                                                         |
++----------+-----------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3        | Financial cost-effectiveness            | (Total service provision costs)/(Composite flight-hours)                               | ***Total service provision costs:*** Item A15 (en-route + terminal columns)                                                                                                      |
+|          |                                         |                                                                                        |                                                                                                                                                                                  |
+|          |                                         |                                                                                        | ***Composite flight-hours:*** Formula #1                                                                                                                                         |
++----------+-----------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4        | ATCO-hour productivity                  | (Composite flight-hour)/(Sum of ATCO in OPS hours on duty)                             | ***Composite flight-hours:*** Formula #1                                                                                                                                         |
+|          |                                         |                                                                                        |                                                                                                                                                                                  |
+|          |                                         |                                                                                        | ***Sum of ATCO in OPS hours on duty:*** Item D22 (ACCs + APPs+TWRs columns)                                                                                                      |
++----------+-----------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5        | ATCO employment costs per ATCO-hour     | (Staff costs for ATCOs in OPS)/(Sum of ATCO in OPS hours on duty)                      | ***Staff costs for ATCOs in OPS:*** Item C23 (en-route + terminal columns)                                                                                                       |
+|          |                                         |                                                                                        |                                                                                                                                                                                  |
+|          |                                         |                                                                                        | ***Sum of ATCO in OPS hours on duty:*** Item D22 (ACCs + APPs+TWRs columns)                                                                                                      |
++----------+-----------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6        | Support costs per composite flight-hour | (Total service provision costs-ATCOs in OPS Employment costs)/(Composite flight-hours) | ***Total service provision costs:*** Item A15 (en-route + terminal columns)                                                                                                      |
+|          |                                         |                                                                                        |                                                                                                                                                                                  |
+|          |                                         |                                                                                        | ***ATCOs in OPS Employment costs:*** Item C23 (en-route + terminal columns)                                                                                                      |
+|          |                                         |                                                                                        |                                                                                                                                                                                  |
+|          |                                         |                                                                                        | ***Composite flight-hours:*** Formula #1                                                                                                                                         |
++----------+-----------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Financial indicators used to monitor ANSPs liquidity and cash situation
+
+The current ratio and cash-on-hand days indicators are used in ACE report to analyse ANSPs financial situation. The formulas and sources of data used for calculation are presented in the table below.
+
++-----------+-------------------+-----------------------------------------------------------------------+--------------------------------------------------------------+
+| \#        | Indicator         | Formula                                                               | Source                                                       |
++===========+===================+=======================================================================+==============================================================+
+| 1         | Current ratio     | (Current assets)/(Current liabilities)                                | ***Current assets:*** Item B15 (total ANS column)            |
+|           |                   |                                                                       |                                                              |
+|           |                   |                                                                       | ***Current liabilities:*** Item B30, (total ANS column)      |
++-----------+-------------------+-----------------------------------------------------------------------+--------------------------------------------------------------+
+| 2         | Cash-on-hand days | (Cash in hand or at bank)/(Staff costs+Non-staff operating costs)×365 | ***Cash in hand or at bank***: Item B18 (total ANS column)   |
+|           |                   |                                                                       |                                                              |
+|           |                   |                                                                       | ***Staff costs:*** Item A16, (total ANS column)              |
+|           |                   |                                                                       |                                                              |
+|           |                   |                                                                       | ***Non-staff operating costs:*** Item A17 (total ANS column) |
++-----------+-------------------+-----------------------------------------------------------------------+--------------------------------------------------------------+

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.309">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
@@ -36,13 +41,14 @@ div.csl-indent {
 }
 </style>
 
+
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
 <link href="./monetary-factors.html" rel="next">
 <link href="./influencing-factors.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -50,10 +56,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link id="quarto-text-highlighting-styles" href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,22 +91,28 @@ div.csl-indent {
 
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
-    <img src="./images/EUROCONTROL-logo-standard-rgb.svg" alt="">
-  </a>
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/EUROCONTROL-logo-standard-rgb.svg" alt="" class="navbar-logo">
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-i-classfar-fa-star-fa-spin-fa-fwi-aviation-intelligence" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="far fa-star fa-spin fa-fw"></i> Aviation Intelligence</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-i-classfar-fa-star-fa-spin-fa-fwi-aviation-intelligence" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-star" role="img">
+</i> 
+ <span class="menu-text"><i class="far fa-star fa-spin fa-fw"></i> Aviation Intelligence</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-i-classfar-fa-star-fa-spin-fa-fwi-aviation-intelligence">    
         <li>
     <a class="dropdown-item" href="https://ansperformance.eu"><i class="bi bi-house-fill" role="img">
@@ -267,7 +279,9 @@ div.csl-indent {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
     <a class="dropdown-item" href="https://ansperformance.eu/about/prc/">
@@ -288,7 +302,9 @@ div.csl-indent {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-areas" role="button" data-bs-toggle="dropdown" aria-expanded="false">Areas</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-areas" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Areas</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-areas">    
         <li>
     <a class="dropdown-item" href="https://ansperformance.eu/covid/">
@@ -314,7 +330,9 @@ div.csl-indent {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-views" role="button" data-bs-toggle="dropdown" aria-expanded="false">Views</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-views" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Views</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-views">    
         <li>
     <a class="dropdown-item" href="https://ansperformance.eu/dashboard/stakeholder/airport/">
@@ -335,10 +353,13 @@ div.csl-indent {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://ansperformance.eu/publications/">Publications</a>
+    <a class="nav-link" href="https://ansperformance.eu/publications/">
+ <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reference" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reference</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reference" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Reference</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-reference">    
         <li>
     <a class="dropdown-item" href="https://ansperformance.eu/data/">
@@ -368,7 +389,9 @@ div.csl-indent {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ses" role="button" data-bs-toggle="dropdown" aria-expanded="false">SES</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ses" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">SES</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-ses">    
         <li>
     <a class="dropdown-item" href="https://www.eurocontrol.int/prudata/dashboard/">
@@ -438,6 +461,11 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./detail-ace-indicators.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Detailed information on the calculation of ACE indicators</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
   </div>
 </li>
@@ -463,11 +491,10 @@ div.csl-indent {
 
 
 
-
-
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -484,14 +511,14 @@ div.csl-indent {
 <div id="fig-indicator-and-kpi" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="./images/image12.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Figure 6.1: ACE cost-effectiveness indicator and SES cost-efficiency KPI</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;6.1: ACE cost-effectiveness indicator and SES cost-efficiency KPI</figcaption><p></p>
 </figure>
 </div>
 <p>As shown in <a href="#fig-indicator-and-kpi">Figure&nbsp;<span>6.1</span></a>, the main differences between the ACE financial cost-effectiveness indicator and the SES en-route cost-efficiency KPI are the following:</p>
 <ul>
 <li><p><strong>Operational scope</strong>: En-route and terminal costs are considered together when benchmarking the economic performance of ANSPs in the ACE analysis. It is important to consider a “gate-to-gate” perspective because the boundaries used to allocate costs between en-route and terminal ANS vary between ANSPs and might introduce a bias in the cost-effectiveness analysis. On the other hand, the SES cost-efficiency KPI is computed for en-route and terminal ANS separately, for the purposes of the target-setting and/or monitoring processes.</p></li>
 <li><p><strong>Service scope</strong>: Total ANS costs (including costs relating to the ANSPs, METSPs, EUROCONTROL, and NSAs) are used to compute the SES cost-efficiency KPI, while only the ANSPs ATM/CNS provision costs are included in the ACE benchmarking analysis.</p></li>
-<li><p><strong>Measure of the output</strong>: The output metric used to compute the SES en-route cost-efficiency KPI is the number of en-route service units<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. This metric is a function of the aircraft weight and of the distance flown within a given charging zone. This is the metric which has been historically used to compute the en-route unit rate charged to airspace users. On the other hand, the ACE financial cost-effectiveness indicator is computed using composite flight-hours, which combine both flight-hours and IFR airport movements (see <a href="methodology.html#sec-metric-and-framework">Section&nbsp;<span>3.1</span></a>). It should be noted that the geographical area controlled by ANSPs operational units can substantially differ from the charging zones in case of delegation of ANS. The composite flight-hours therefore better reflect the operational activity performed by ANSPs, while service units are more appropriate when charging zones are considered.</p></li>
+<li><p><strong>Measure of the output</strong>: The output metric used to compute the SES en-route cost-efficiency KPI is the number of en-route service units<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. This metric is a function of the aircraft weight and of the distance flown within a given charging zone. This is the metric which has been historically used to compute the en-route unit rate charged to airspace users. On the other hand, the ACE financial cost-effectiveness indicator is computed using composite flight-hours, which combine both flight-hours and IFR airport movements (see <a href="methodology.html#sec-metric-and-framework"><span>Section&nbsp;3.1</span></a>). It should be noted that the geographical area controlled by ANSPs operational units can substantially differ from the charging zones in case of delegation of ANS. The composite flight-hours therefore better reflect the operational activity performed by ANSPs, while service units are more appropriate when charging zones are considered.</p></li>
 </ul>
 
 
@@ -500,16 +527,34 @@ div.csl-indent {
 European Commission. 2019. <span>“Commission <span>Implementing Regulation</span> (<span>EU</span>) 2019/317 of 11 <span>February</span> 2019 Laying down a Performance and Charging Scheme in the Single <span>European</span> Sky and Repealing <span>Implementing Regulations</span> (<span>EU</span>) <span>No</span> 390/2013 and (<span>EU</span>) <span>No</span> 391/2013 (<span>Text</span> with <span>EEA</span> Relevance.).”</span> <span>Official Journal of the European Union</span>. <a href="https://eur-lex.europa.eu/eli/reg_impl/2019/317/oj">https://eur-lex.europa.eu/eli/reg_impl/2019/317/oj</a>.
 </div>
 </div>
-<section class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn1" role="doc-endnote"><p><span class="math inline">\(\text{Service}\ \text{unit} = \text{distance factor} \times \ \sqrt{\frac{\text{MTOW}}{50}}\)</span> <br> According to EU Regulation 2019/317 <span class="citation" data-cites="eu2019/317">(<a href="references.html#ref-eu2019/317" role="doc-biblioref">European Commission 2019</a>, Annex VIII 1.1 and 1.2)</span>, <em>the en route service units shall be calculated as the product of the distance factor and the weight factor for the flight concerned. […] The distance factor in respect of a given charging zone shall be obtained by dividing by one hundred the number of kilometers flown.</em><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p><span class="math inline">\(\text{Service}\ \text{unit} = \text{distance factor} \times \ \sqrt{\frac{\text{MTOW}}{50}}\)</span> <br> According to EU Regulation 2019/317 <span class="citation" data-cites="eu2019/317">(<a href="references.html#ref-eu2019/317" role="doc-biblioref">European Commission 2019</a>, Annex VIII 1.1 and 1.2)</span>, <em>the en route service units shall be calculated as the product of the distance factor and the weight factor for the flight concerned. […] The distance factor in respect of a given charging zone shall be obtained by dividing by one hundred the number of kilometers flown.</em><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
 </main> <!-- /main -->
-<script type="application/javascript">
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -531,7 +576,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -559,31 +621,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var filterRegex = new RegExp(/^(?:http:|https:)\/\/ansperformance\.eu\/|^(?:http:|https:)\/\/.*ace-handbook\.netlify\.app\//);
@@ -591,7 +672,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

@@ -1,4 +1,4 @@
-# Methodological framework used to measure ANSPs gate-to-gate cost-effectiveness performance
+# Methodological framework used to measure ANSPs gate-to-gate cost-effectiveness performance {#sec-method}
 
 ## Composite output metric and framework for cost-effectiveness performance analysis {#sec-metric-and-framework}
 
