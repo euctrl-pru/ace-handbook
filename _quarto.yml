@@ -18,6 +18,37 @@ format:
       - media/fontawesome.html
       # UNCOMMENT for activating GA
       - media/analytics.html
+  pdf:
+    documentclass: scrbook
+    classoption: [chapterprefix=false, numbers=noenddot]
+    pdf-engine: xelatex
+    include-in-header:
+      - media/preamble.tex
+      - media/headings.tex
+      - media/headers_footers.tex
+    include-before-body: media/before_body.tex
+    include-after-body: media/rear_page.tex
+    toc: true
+    toc-depth: 3
+    toc-title: Contents
+    number-sections: true
+    number-depth: 5
+    papersize: a4
+    fontsize: 10pt
+    colorlinks: true
+    links-as-notes: true
+    keep-tex: true
+    # hyperrefoptions:
+    # - urlcolor=blue,
+    # - linkcolor=black,
+    # - citecolor=gray
+    geometry:
+      - top=35mm
+      - bottom=25mm
+      - left=30mm
+      - right=30mm
+      - inner=20mm
+      - outer=19.5mm
 
 book:
   title: "ACE Handbook"

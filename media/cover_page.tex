@@ -1,0 +1,89 @@
+\thispagestyle{empty}
+\pagenumbering{roman}
+\begin{tikzpicture}[overlay,remember picture]
+
+  % colored rectangle
+  \fill[TH] (current page.north west) rectangle ++(\paperwidth,-80mm);
+
+  % Title and authors
+  \draw (current page.north west) ++ (138mm,-72mm) node[name=lefttextbox,above left,text width=118.5mm, align=right]{
+    \fontsize{30pt}{33pt}\selectfont
+    \textcolor{white}{\textbf{\thetitle}} \\ \vspace{8mm}
+    \fontsize{14pt}{16pt}\selectfont
+    \textcolor{white}{\MakeUppercase{\textbf{\theauthor}}}
+  };
+
+  % Year
+  \fontsize{24pt}{29pt}\selectfont
+  \draw (current page.north west) ++ (148mm,-72mm) node[name=righttextbox,above right]{
+    \textcolor{white}{\theedition}
+  };
+
+  % vertical ligne
+  \draw (current page.north west) ++ (143mm,-85mm) node[name=bottomedot]{};
+  \draw[white,very thick] (lefttextbox.north east)++(5mm,2mm) --
+  (bottomedot);
+
+  % eurocontrol logo top of page (see also below)
+   \draw (current page.north west) ++ (\paperwidth -32mm -6mm,-16mm -3mm) node[name=logo_top, right]{%
+    \includegraphics[height=32mm]{media/logos/EUROCONTROL-logo-boxed-rgb.png}};
+
+  %---------------- editable graphical elements ----------------
+
+  % cover picture
+  \draw (current page.north) ++ (0mm,-79mm) node[name=cover_picture,below]{
+    \includegraphics[width=21cm,height=19cm]{media/coverpage_photo.jpg}
+  };
+
+  % co edition logo 1/1
+  % \draw (current page.south west) ++ (38mm,12mm) node[name=coeditorlogo1, right]{
+  %   \includegraphics[height=23mm]{media/co-edition-logo-1.jpg}
+  % };
+
+  % co edition logo 1/2
+  % \draw (current page.south west) ++ (1mm,12mm) node[name=coeditorlogoA, right]{
+  %   \includegraphics[height=23mm]{%
+  %     media/co-edition-logo-1.jpg}
+  % };
+
+  % co edition logo 2/2
+  % \draw (current page.south west) ++ (25mm,12mm) node[name=coeditorlogoB,  right]{
+  %   \includegraphics[height=18mm]{%
+  %     media/co-edition-logo-2.png}
+  % };
+
+  %---------------- end of the editable graphical elements ----------------
+
+  % eurocontrol logo
+  % bottom of page
+   % \draw (current page.south west) ++ (142mm,12mm) node[name=logo_bottom, right]{%
+   %  \includegraphics[height=16.5mm]{media/logos/eurocontrol_logo.png}};
+
+  % other logos, i.e. SESAR DM + SESAR JU + NM
+   \draw (current page.south west) ++ (2mm,13mm) node[name=logo_alt, right]{%
+    \includegraphics[height=16.5mm]{media/logos/Logo_SDM.png}};
+   \draw (current page.south west) ++ (34mm,13mm) node[name=logo_alt, right]{%
+    \includegraphics[height=16.5mm]{media/logos/Logo_SJU.png}};
+   \draw (current page.south west) ++ (63mm,12mm) node[name=logo_alt, right]{%
+    \includegraphics[height=16.5mm]{media/logos/Logo_NM.png}};
+
+   % vertical ligne
+  \draw (current page.south west) ++ (143mm,19mm) node[name=abovedotlogo]{};
+  \draw (current page.south west) ++ (143mm,-5mm) node[name=botomedotlogo]{};
+  \draw[gray65K,very thick] (abovedotlogo) -- (botomedotlogo);
+
+  % Unit
+  \draw (current page.south west) ++ (142mm,9mm) node[name=lefttextbox,above left,text width=118.5mm, align=right]{
+    \fontsize{10pt}{0pt}\selectfont
+    \textcolor{gray65K}{AVIATION}
+  };
+  \draw (current page.south west) ++ (142mm,6.2mm) node[name=lefttextbox,above left,text width=118.5mm, align=right]{
+    \fontsize{10pt}{0pt}\selectfont
+    \textcolor{gray65K}{INTELLIGENCE}
+  };
+  \draw (current page.south west) ++ (142mm,3.4mm) node[name=lefttextbox,above left,text width=118.5mm, align=right]{
+    \fontsize{10pt}{0pt}\selectfont
+    \textcolor{gray65K}{UNIT}
+  };
+\end{tikzpicture}
+\restoregeometry

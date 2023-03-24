@@ -1,0 +1,126 @@
+\usepackage{scrhack}
+
+%% TODO: pass via YAML
+\newcommand{\theedition}{2023 edition}
+\newcommand{\thecopyrightyear}{2023}
+\newcommand{\theDOIprint}{10.xxxx/xx...x}
+\newcommand{\theDOIpdf}{10.yyyy/yy...y}
+\newcommand{\theISBNprint}{xxx-xx-xx-xxxxx-x}
+\newcommand{\theISBNpdf}{yyy-yy-yy-yyyyy-y}
+
+
+%%%%%%%% DEBUG %%%%%%%%%
+% \usepackage{showframe} % DEBUG: show frames
+
+% test chapter numbers
+% \setcounter{chapter}{20}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% hyphenation reduction
+\hyphenpenalty=1 %100000
+
+
+
+%%%%%% FONTS %%%%%%%
+
+%% from Eurostat
+
+% Myriad Pro
+% \setmainfont{MyriadPro}[Path=media/fonts/MyriadPro/, Extension = .otf,
+%     UprightFont = *-Regular,
+%     BoldFont = *-Bold,
+%     ItalicFont = *-It,
+%     BoldItalicFont = *-BoldIt ]
+%
+% \fontsize{9.5pt}{10pt}\selectfont
+% \renewcommand{\familydefault}{\sfdefault}
+
+% Arial
+% \setmainfont{Arial}
+
+
+
+% from EUROCONTROL brand identity page: https://www.eurocontrol.int/brand
+%% Option 'sfdefault' only if the base font of the document is to be sans
+% \usepackage[sfdefault]{roboto}
+\usepackage[default]{roboto}
+%% for monospaced font
+\usepackage{roboto-mono}
+\usepackage{sourcecodepro}
+% \usepackage[T1]{fontenc}
+
+
+%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%% COVER %%%%%%%%%%
+\usepackage{tikz}
+\usepackage{titling}
+
+\def \FooterLogoPath{media/logo_footer_Theme1.PNG}
+\usepackage{xcolor}
+
+\definecolor{gray30K}{cmyk}{0,0,0,0.30}
+\definecolor{gray60K}{cmyk}{0,0,0,0.60}
+\definecolor{gray65K}{cmyk}{0,0,0,0.65}
+\definecolor{gray75K}{cmyk}{0,0,0,0.75}
+\definecolor{gray100K}{cmyk}{0,0,0,1.00}
+
+% theme color
+\definecolor{TH}{cmyk}{0.85,0.55,0.00,0.00}
+\definecolor{TH20p}{cmyk}{0.18,0.10,0.00,0.00}
+\definecolor{TH30p}{cmyk}{0.26,0.17,0.00,0.00}
+
+\renewcommand*{\maketitle}{%
+  %------------------------- Cover ------------------------
+  % cover
+  \include{media/cover_page}
+  \newpage \thispagestyle{empty} \mbox{}
+  %------------------------- Title page ------------------------
+  % title page
+  \newpage
+  \include{media/title_page}
+  %------------------------- Copyright page ------------------------
+  \newpage
+  \include{media/copyright_page}
+
+  % %Keep this before the first section of your article and after the copryght page.
+  % % header
+  % \pagestyle{numstyle} % required for footer and header
+
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%% PAGE LAYOUT %%%%%%%
+
+% DONE in YAML
+% \usepackage[
+%   % paperwidth=210mm,
+%   % paperheight=245mm,
+%   top=35mm,
+%   bottom=25mm,
+%   left=30mm,
+%   right=30mm,
+%   inner=20mm,
+%   outer=19.5mm,
+%   % marginparsep=7mm,
+%   % marginparwidth=48mm,
+% ]{geometry}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%% Hyperrefs %%%%%%%%
+\usepackage{hyperref} % Required for hyperlinks
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    linkcolor=black,
+    citecolor=gray
+}
+\renewcommand\UrlFont{\color{blue}\rmfamily} % url format
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+

@@ -1,0 +1,106 @@
+\usepackage{scrlayer-scrpage}
+
+\pagestyle{scrheadings}
+\automark[chapter]{chapter}
+\automark*[section]{}
+
+
+% %---------- Header and footer ----------
+% % redefine section in order to print the unnumbered section name in header
+%
+% % https://tex.stackexchange.com/questions/168378/unnumbered-sections-and-section-marks
+%
+% \let\CLASSsection\section
+% \RenewDocumentCommand{\section}{som}{%
+%   \IfBooleanTF{#1}
+%    {% there's a *
+%     \CLASSsection*{#3}\markboth{#3}{}%
+%     \pagestyle{unnumstyle}
+%    }
+%    {% no *
+%     \IfNoValueTF{#2}
+%      {% no opt arg
+%       \CLASSsection{#3}%
+%       \pagestyle{numstyle}
+%      }
+%      {% opt arg
+%       \CLASSsection[#2]{#3}%
+%       \pagestyle{numstyle}
+%      }%
+%    }%
+% }
+%
+% % fancy style : just the footer
+% \renewcommand{\headrulewidth}{0pt}
+% \lhead{}
+% \chead{}
+% \rhead{}
+% \setlength{\footskip}{12mm}
+% %\lfoot{
+% %    \includegraphics[width=1.6cm]{\FooterLogoPath}
+% %    \hspace{0.5mm} \color{gray60K}\fontsize{9}{9}\selectfont\emph{\Articletitle}
+% %    \hrulefill \hspace{1mm} \color{black} \fontsize{12}{9}\selectfont
+% %    \thepage}
+% \cfoot{}
+% \rfoot{}
+%
+%
+% % add a new fancy style for the numbered section
+% \fancypagestyle{numstyle}{
+%   \pagestyle{fancy}% Duplicate fancy page style (footer)
+%   \rhead{
+%     \begin{tikzpicture}[overlay,remember picture]
+%         \node[yshift=-22mm, xshift=-18mm] at (current page.north east)
+%             {\begin{tikzpicture}[remember picture, overlay]
+%                     \fill[TH] (0,0) rectangle ++(18mm,8mm);
+%                     \node[yshift=-25.1mm,xshift=-29mm, inner sep=0pt,above right] at (current page.north east){\color{white}\fontsize{28}{30}\selectfont\bf \thesection};
+%                     \node[yshift=-25.0mm,xshift=-32mm, inner sep=0pt,above left] at (current page.north east){\color{gray60K}\fontsize{10}{10}\selectfont \leftmark};
+%             \end{tikzpicture}};
+%     \end{tikzpicture}
+%     }
+%     \lfoot{
+%         \includegraphics[width=1.6cm]{\FooterLogoPath}
+%         \hspace{0.5mm} \color{gray60K}\fontsize{9}{9}\selectfont\emph{\Articletitle}
+%         \hrulefill \hspace{1mm} \color{black} \fontsize{12}{9}\selectfont
+%     \thepage}
+% }
+%
+% % add a new fancy style for the numbered section in landscape pages
+% \fancypagestyle{numstylelscape}{
+%   \pagestyle{fancy}% Duplicate fancy page style (footer)
+%   \rhead{
+%     \begin{tikzpicture}[overlay,remember picture]
+%         \node[yshift=-18mm, xshift=22mm, rotate=90] at (current page.north west)
+%             {\begin{tikzpicture}[remember picture, overlay]
+%                     \fill[TH] (0,0) rectangle ++(18mm,8mm);
+%                     \node[yshift=-20.1mm,xshift=-24mm, inner sep=0pt,above right] at (current page.north east){\color{white}\fontsize{28}{30}\selectfont\bf \thesection};
+%                     \node[yshift=-20.0mm,xshift=-27mm, inner sep=0pt,above left] at (current page.north east){\color{gray60K}\fontsize{10}{10}\selectfont \leftmark};
+%             \end{tikzpicture}};
+%     \end{tikzpicture}
+%     }
+%     \lfoot{
+%         \begin{tikzpicture}[overlay,remember picture]
+%                 \draw (current page.south east) ++ (-11mm,30mm) node[name=logo,  above right, rotate=90]{\includegraphics[width=16mm]{\FooterLogoPath}};
+%                 \draw (current page.south east) ++ (-10.5mm,49mm) node[name=footertxt,  above right, rotate=90,text width=216.0mm, align=left]{\color{gray60K}\fontsize{9}{9}\selectfont\emph{\Articletitle}\hspace{1mm}\hrulefill \hspace{1mm} \color{black} \fontsize{12}{9}\selectfont\thepage};
+%     \end{tikzpicture}
+%     }
+% }
+%
+% % add a new fancy style for the unnumbered section
+% \fancypagestyle{unnumstyle}{
+%   \pagestyle{fancy}% Duplicate fancy page style (footer)
+%   \rhead{
+%     \begin{tikzpicture}[overlay,remember picture]
+%         \node[yshift=-22mm, xshift=-18mm] at (current page.north east)
+%             {\begin{tikzpicture}[remember picture, overlay]
+%                     \fill[TH] (0,0) rectangle ++(18mm,8mm);
+%                     \node[yshift=-25.0mm,xshift=-32mm, inner sep=0pt,above left] at (current page.north east){\color{gray60K}\fontsize{10}{10}\selectfont \leftmark};
+%             \end{tikzpicture}};
+%     \end{tikzpicture}
+%     }
+%     \lfoot{
+%         \includegraphics[width=1.6cm]{\FooterLogoPath}
+%         \hspace{0.5mm} \color{gray60K}\fontsize{9}{9}\selectfont\emph{\Articletitle}
+%         \hrulefill \hspace{1mm} \color{black} \fontsize{12}{9}\selectfont
+%     \thepage}
+% }

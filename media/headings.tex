@@ -1,0 +1,83 @@
+%%%%%%% HEADING DEFS %%%%%%%%%
+
+% % H0 numbered section title format
+
+\renewcommand\chapterformat{\thechapter}
+\addtokomafont{chapter}{\color{TH}\fontsize{80}{80}\selectfont\bfseries}
+\renewcommand\chapterlinesformat[3]{%
+  \Ifstr{#1}{chapter}{%
+    \begin{tikzpicture}[remember picture,overlay]
+      \node[yshift=-80mm] at (current page.north west){%
+        \begin{tikzpicture}[remember picture, overlay]
+          % background color
+          \fill[TH20p] (0,0) rectangle ++(\paperwidth,80mm);
+          % section number
+          \node[
+            yshift=-48mm,
+            xshift=85mm,
+            inner sep=0pt,
+            above left] at (current page.north west){\color{TH}\fontsize{130}{130}\selectfont\bfseries#2};
+          % section title
+          \draw (current page.north west) ++ (92mm,-48mm) node[
+            inner sep=0pt,
+            above right,
+            text width=127mm,
+            align=left]{\setlength{\baselineskip}{15pt}\color{TH}\fontsize{28}{31}\selectfont\bfseries#3};
+          % vertical ligne
+          \draw (current page.north west) ++ (90mm,10mm) node[name=abovedot]{};
+          \draw (current page.north west) ++ (90mm,-64mm) node[name=botomedot]{};
+          \draw[TH,very thick] (abovedot) -- (botomedot);
+          % horizontal ligne
+          \fill[TH] (0,0) rectangle ++(\paperwidth,-2.5mm);
+        \end{tikzpicture}
+      };
+    \end{tikzpicture}
+   }{%
+    \@hangfrom{#2}{#3}% original definition for other levels
+  }
+}
+\renewcommand*{\chapterheadendvskip}{\vspace*{40mm}}
+
+
+
+% H1 numbered subsection title format
+% \titleformat{name=\subsection}{\fontsize{20pt}{18pt}\selectfont \bfseries}{\textcolor{TH}{\thesubsection}}{0.5em}{\hspace{0em}\textcolor{TH}{#1}\vspace{1em}}{}
+\addtokomafont{section}{\color{TH}}
+\addtokomafont{section}{\fontsize{20pt}{18pt}\selectfont \bfseries}
+\RedeclareSectionCommand[
+  style=section,
+  afterindent=false,
+  beforeskip=0.7\baselineskip,
+  afterskip=1.0\baselineskip]{section}
+
+
+% H2 numbered subsubsection title format
+% \titleformat{name=\subsubsection}{\fontsize{15pt}{10pt}\selectfont \bfseries}{{\thesubsubsection}}{0.5em}{\hspace{0em}{#1}\vspace{1.2em}}{}
+\addtokomafont{subsection}{\fontsize{15pt}{10pt}\selectfont \bfseries}
+\RedeclareSectionCommand[
+  style=section,
+  afterindent=false,
+  beforeskip=0.5\baselineskip,
+  afterskip=0.5\baselineskip]{subsection}
+
+% H3 numbered paragraph title format
+% \titleformat{name=\paragraph}{\fontsize{11pt}{10pt}\selectfont \bfseries}{\textcolor{TH}{\theparagraph}}{0.7em}{\hspace{0em}\textcolor{TH}{\MakeUppercase{#1}}\vspace{1.6em}}{}
+\addtokomafont{subsubsection}{\color{TH}}
+\addtokomafont{subsubsection}{\MakeUppercase}
+\RedeclareSectionCommand[
+  style=section,
+  afterindent=false,
+  beforeskip=0.4\baselineskip,
+  afterskip=0.4\baselineskip]{subsubsection}
+
+
+% H4 numbered sub paragraph title format
+% \titleformat{name=\subparagraph}{\fontsize{11pt}{10pt}\selectfont \bfseries}{{\thesubparagraph}}{0.5em}{\hspace{0em}{#1}\vspace{1.6em}}{}
+\addtokomafont{paragraph}{\fontsize{11pt}{10pt}\selectfont \bfseries}
+\RedeclareSectionCommand[
+  style=section,
+  afterindent=false,
+  beforeskip=0.3\baselineskip,
+  afterskip=0.4\baselineskip]{paragraph}
+
+%%%%%%%%%%%%%%%%%%%%%
