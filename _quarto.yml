@@ -43,6 +43,11 @@ format:
          %\areaset[current]{148.00mm}{220mm}
          %\usepackage[bottom=105pt]{geometry}
          \usepackage{colortbl}
+         \usepackage{etoolbox}
+         \AtBeginEnvironment{longtable}{\rowcolors{2}{gray!25}{}}
+         \apptocmd{\toprule}{\hiderowcolors}{}{}
+         \apptocmd{\endhead}{\showrowcolors}{}{}
+         \apptocmd{\endfirsthead}{\showrowcolors}{}{}
     include-before-body:
       - text: |
          %\rowcolors{3}{gray!25}{white}
