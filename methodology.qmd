@@ -10,9 +10,7 @@ For this reason, an indicator combining the two separate output measures for en-
 
 The composite gate-to-gate flight-hours are consequently defined as:
 
-|                                                                                                |
-|:-----------------------------------------------------------------------|
-| *Composite gate-to-gate flight-hours = En-route flight-hours + (0.27 x IFR airport movements)* |
+$$ \textrm{Composite gate-to-gate flight-hours} = \textrm{En-route flight-hours} + (0.27 * \textrm{IFR airport movements}) $$
 
 In the ACE 2001-2006 Reports [@ace_reports], two different weighting factors were used to compute ANSPs cost-effectiveness: one for the year under study and another to examine changes in performance across time. As the ACE data sample became larger in terms of years, the difference between these two weighting factors became insignificant. For the sake of simplicity, it was therefore proposed in the ACE 2007 benchmarking report to use only one weighting factor to analyse ANSPs performance for the year and to examine historical changes in cost-effectiveness.
 
