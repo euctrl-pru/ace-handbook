@@ -2,30 +2,29 @@
 
 ## Composite output metric and framework for cost-effectiveness performance analysis {#sec-metric-and-framework}
 
-The output measures for ANS provision are, for en-route, the en-route flight-hours controlled[^2] and, for terminal ANS, the number of IFR airport movements controlled. In addition to those output metrics, it is important to consider a "gate-to-gate" perspective, because the boundaries used to allocate costs between en-route and terminal ANS vary between ANSPs and might introduce a bias in the cost-effectiveness analysis.
+The output measures for ANS provision are, for en-route, the en-route flight-hours controlled[^methodology-1] and, for terminal ANS, the number of IFR airport movements controlled. In addition to those output metrics, it is important to consider a "gate-to-gate" perspective, because the boundaries used to allocate costs between en-route and terminal ANS vary between ANSPs and might introduce a bias in the cost-effectiveness analysis.
 
-[^2]: Controlled flight-hours are calculated by the Network Manager (NM) as the difference between the exit time and entry time of any given flight in the controlled airspace of an operational unit. Three types of flight-hours are currently computed by the NM (filed model, regulated model and current model). The data used for the cost-effectiveness analysis is based on the current model (Model 3 or CFTM) and includes flight-hours controlled in the ACC, APP and FIS operational units which are described in the NM environment.
+[^methodology-1]: Controlled flight-hours are calculated by the Network Manager (NM) as the difference between the exit time and entry time of any given flight in the controlled airspace of an operational unit. Three types of flight-hours are currently computed by the NM (filed model, regulated model and current model). The data used for the cost-effectiveness analysis is based on the current model (Model 3 or CFTM) and includes flight-hours controlled in the ACC, APP and FIS operational units which are described in the NM environment.
 
 For this reason, an indicator combining the two separate output measures for en-route and terminal ANS provision has been calculated. The "composite gate-to-gate flight-hours" are determined by weighting the output measures by their respective average cost of the service for the whole Pan-European system. This average weighting factor is based on the total monetary value of the outputs over the period 2002-2020 and amounts to 0.27.
 
 The composite gate-to-gate flight-hours are consequently defined as:
 
 |                                                                                                |
-|:-----------------------------------------------------------------------------------------------|
+|:-----------------------------------------------------------------------|
 | *Composite gate-to-gate flight-hours = En-route flight-hours + (0.27 x IFR airport movements)* |
 
-In the ACE 2001-2006 Reports [@ace2001;@ace2002;@ace2003;@ace2003;@ace2004;@ace2005;@ace2006], two different weighting factors were used to compute ANSPs cost-effectiveness: one for the year under study and another to examine changes in performance across time. As the ACE data sample became larger in terms of years, the difference between these two weighting factors became insignificant. For the sake of simplicity, it was therefore proposed in the ACE 2007 [@ace2007] benchmarking report to use only one weighting factor to analyse ANSPs performance for the year and to examine historical changes in cost-effectiveness.
+In the ACE 2001-2006 Reports [@ace_reports], two different weighting factors were used to compute ANSPs cost-effectiveness: one for the year under study and another to examine changes in performance across time. As the ACE data sample became larger in terms of years, the difference between these two weighting factors became insignificant. For the sake of simplicity, it was therefore proposed in the ACE 2007 benchmarking report to use only one weighting factor to analyse ANSPs performance for the year and to examine historical changes in cost-effectiveness.
 
-Although the composite gate-to-gate output metric does not fully reflect all aspects of the complexity of the services provided, it is nevertheless the best metric currently available for the analysis of gate-to-gate cost-effectiveness[^3].
+Although the composite gate-to-gate output metric does not fully reflect all aspects of the complexity of the services provided, it is nevertheless the best metric currently available for the analysis of gate-to-gate cost-effectiveness[^methodology-2].
 
-[^3]: Further details on the theoretical background to producing composite indicators can be found in a working paper on "*Total Factor Productivity of European ANSPs: basic concepts and application*" (Sept. 2005) [@prc01/2005].
+[^methodology-2]: Further details on the theoretical background to producing composite indicators can be found in a working paper on "*Total Factor Productivity of European ANSPs: basic concepts and application*" (Sept. 2005) [@prc01/2005].
 
 For the sake of completeness, the gate-to-gate financial cost-effectiveness indicator is broken down into en-route and terminal components, with the output units being en-route flight-hours and IFR airport movements, respectively. There are cases where a high en-route cost per flight-hour correspond to a low terminal cost per IFR airport movement and vice versa.
 
 The PRU has developed an analytical framework that allows cost-effectiveness to be broken down into a number of key components. This framework helps in understanding differences in cost-effectiveness by allowing examination of the detailed factors underlying it. It is important to note that the focus of the ACE analysis is on the ATM/CNS provision costs incurred by the ANSP. MET costs, EUROCONTROL costs and States/NSAs costs are not included as not always under the ANSPs direct management control.
 
 ![Performance framework for gate-to-gate cost-effectiveness analysis](./images/image3.png){#fig-framework-g2g width="100%"}
-
 
 The right-hand side of the @fig-framework-g2g above shows that the financial cost-effectiveness indicator (ATM/CNS provision costs per composite flight-hour) is made up of three component performance **ratios**:
 
@@ -61,7 +60,7 @@ Changes in ATCOs in OPS hours on duty could arise from:
 
     -   Modification of the contractual working hours following a new labour agreement;
 
-    -   Changes in the number of hours not on duty (for example, through \> an increase in average sickness or in refresher training \> time); or,
+    -   Changes in the number of hours not on duty (for example, through an increase in average sickness or in refresher training time); or,
 
     -   Changes in overtime (where applicable).
 
