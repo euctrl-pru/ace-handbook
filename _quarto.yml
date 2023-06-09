@@ -71,7 +71,7 @@ book:
     logo: "images/EUROCONTROL-logo-standard-rgb.svg"
     left:
       - text: "<i class='far fa-star fa-spin fa-fw'></i> Aviation Intelligence"
-        icon: "star"
+        #icon: "star"
         menu:
           - text: "**Home**"
             icon: "house-fill"
