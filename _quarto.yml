@@ -2,7 +2,10 @@ project:
   type: book
 
 bibliography: references.bib
+link-citations: true
+colorlinks: true
 # csl: ieee-with-url.csl
+
 
 format:
   html:
@@ -18,11 +21,35 @@ format:
       - media/fontawesome.html
       # UNCOMMENT for activating GA
       - media/analytics.html
+  pdf:
+    papersize: a4paper
+    documentclass: scrbook
+    classoption: "headings=off,headsepline=on,footsepline=off,DIV=12,table"
+    mainfont: Roboto
+    keep-tex: true
+    hyperrefoptions:
+      - linktoc=all
+    toccolor:  'blue'
+    linkcolor: 'blue'
+    urlcolor:  'blue'
+    citecolor: 'blue'
+    fontsize: 11pt
+    # fig-pos: 'H'
+    include-in-header:
+      - text: |
+         % make figure title, number and caption bold
+         \usepackage[labelfont=bf,font=bf]{caption}
+         %\areaset[current]{148.00mm}{220mm}
+         %\usepackage[bottom=105pt]{geometry}
+    include-before-body:
+      - text: |
+         \rowcolors{3}{gray!25}{white}
 
 book:
   title: "ACE Handbook"
   author: "Performance Review Unit"
   date: "2023-03-01"
+  date-format: long
   chapters:
     - index.qmd
     - process-and-use.qmd
