@@ -6,6 +6,7 @@ link-citations: true
 colorlinks: true
 # csl: ieee-with-url.csl
 
+format-links: [pdf]
 
 format:
   html:
@@ -24,7 +25,7 @@ format:
   pdf:
     papersize: a4paper
     documentclass: scrbook
-    classoption: "headings=off,headsepline=on,footsepline=off,DIV=12,table"
+    classoption: "openany,headsepline=on,footsepline=off,DIV=12,table"
     mainfont: Roboto
     keep-tex: true
     hyperrefoptions:
@@ -41,9 +42,10 @@ format:
          \usepackage[labelfont=bf,font=bf]{caption}
          %\areaset[current]{148.00mm}{220mm}
          %\usepackage[bottom=105pt]{geometry}
+         \usepackage{colortbl}
     include-before-body:
       - text: |
-         \rowcolors{3}{gray!25}{white}
+         %\rowcolors{3}{gray!25}{white}
 
 book:
   title: "ACE Handbook"

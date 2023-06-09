@@ -89,14 +89,18 @@ Endogenous factors fall into three groups:
 
 
 
-@fig-org-factors lists the factors that would need to be considered in the scope of a comprehensive analysis of the impact of **ANSP organisation** on performance. They mainly relate to four issues which are typically addressed in the Balanced Scorecard methodology. These issues are:   
+@fig-org-factors lists the factors that would need to be considered in the scope of a comprehensive analysis of the impact of **ANSP organisation** on performance. They mainly relate to four issues which are typically addressed in the Balanced Scorecard methodology.
+
+![Organisational factors](./images/image9.png){#fig-org-factors width="55%" fig-pos='H'}     
+
+
+These issues are:   
 
 - The internal organisation structure;
 - The degree to which assets and activities are retained in-house;                                                
 - Human resources; and                                                                                            
 - Relationship with customer.
 
-![Organisational factors](./images/image9.png){#fig-org-factors width="55%" fig-pos='H'}     
 
 
 Not all organisational factors will directly affect cost-effectiveness; some enable or facilitate the achievement of performance when they are set in conformity with the business objectives. It is likely that no single model should constitute "best practice" in all circumstances.
