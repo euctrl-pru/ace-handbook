@@ -1,5 +1,6 @@
 project:
   type: book
+  # post-render: pdfjam --no-tidy media/cover.pdf '1,2' _book/ACE-Handbook.pdf '-' media/cover.pdf '3,4' --outfile ACE-Handbook.pdf
 
 bibliography: references.bib
 link-citations: true
