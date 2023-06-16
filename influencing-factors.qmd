@@ -26,49 +26,31 @@ Exogenous factors need, as far as possible to be taken into account both in achi
 
 Capturing the local impact of an exogenous factor on ANSPs performance is not a straightforward exercise. First, there is no guarantee that a given exogenous factor will affect all ANSPs in the same manner. It is possible that similar conditions could create effects working in opposite direction (bringing both benefits and difficulties). Second, similar exogenous factors may not necessarily affect different ANSPs to the same degree, either because of endogenous factors relating to how an issue is managed, or by other exogenous factors constraining an ANSP's response. So a given factor might create a small burden in one ANSP, while affecting another more seriously.
 
-
-
-
-The **legal and socio-economic conditions** prevailing in individual countries are affected by national policy-makers at a more general level (for example taxation policy), or by national and international macro-economic conditions. Major examples include the prevailing national wage rates, and levels and systems of taxation. 
+The **legal and socio-economic conditions** prevailing in individual countries are affected by national policy-makers at a more general level (for example taxation policy), or by national and international macro-economic conditions. Major examples include the prevailing national wage rates, and levels and systems of taxation.
 
 Some examples that affect ATM cost-effectiveness performance are illustrated in @fig-legal-socio.
- 
-![Legal & socio-economic conditions](./images/image6.png){#fig-legal-socio width="60%" fig-pos="H"} 
 
-
-
-
+![Legal & socio-economic conditions](./images/image6.png){#fig-legal-socio width="60%" fig-pos="H"}
 
 The **operational conditions**, such as the traffic patterns the ANSP has to deal with, are determined by decisions made by airports, airlines, and especially, flying travellers.
 
-Operational conditions include a number of factors, summarised in @fig-operational-conditions. 
+Operational conditions include a number of factors, summarised in @fig-operational-conditions.
 
-![Operational conditions](./images/image7.png){#fig-operational-conditions width="60%" fig-pos='H'} 
+![Operational conditions](./images/image7.png){#fig-operational-conditions width="60%" fig-pos="H"}
 
-Operational conditions undoubtedly have a direct impact on cost-effectiveness performance, although the extent and magnitude of the impact is not straightforward to isolate.   
-
-
-
-
+Operational conditions undoubtedly have a direct impact on cost-effectiveness performance, although the extent and magnitude of the impact is not straightforward to isolate.
 
 The **institutional and governance arrangements** for ANS in a particular country are set in place by the policies and specific aviation laws of each country. These factors are exogenous to the ANSP but decision-making concerning some of them is largely driven by national aviation policy-makers. Some of these factors relate to international requirements such as those imposed by ICAO, EUROCONTROL and the Single European Sky. These policies at State and European level are subject to changes given strategic objectives for the sector.
 
- @fig-institutional-arrangements provides a list of such factors, relating to:                                    
+@fig-institutional-arrangements provides a list of such factors, relating to:
 
-- the way ANS is regulated;
-- the institutional structure surrounding ANS, the ANSP ownership and control structure; and
-- the civil/military arrangements.
+-   the way ANS is regulated;
+-   the institutional structure surrounding ANS, the ANSP ownership and control structure; and
+-   the civil/military arrangements.
 
-
-![Institutional & governance arrangements](./images/image8.png){#fig-institutional-arrangements width="60%" fig-pos='H'} 
-
-
+![Institutional & governance arrangements](./images/image8.png){#fig-institutional-arrangements width="60%" fig-pos="H"}
 
 It is generally considered that institutional and governance arrangements will not affect ATM cost-effectiveness directly; rather they act as influences or constraints affecting endogenous factors (such as the overall business objectives, the internal organisation, and the operational setup between civil and military).
-
-
-
-
 
 ## Endogenous factors
 
@@ -82,54 +64,39 @@ Different data and methodologies from those currently used in the ACE Benchmarki
 
 Endogenous factors fall into three groups:
 
-- organisational factors;
-- managerial and financial aspects; and,
-- operational and technical setup.
-
-
-
+-   organisational factors;
+-   managerial and financial aspects; and,
+-   operational and technical setup.
 
 @fig-org-factors lists the factors that would need to be considered in the scope of a comprehensive analysis of the impact of **ANSP organisation** on performance. They mainly relate to four issues which are typically addressed in the Balanced Scorecard methodology.
 
-![Organisational factors](./images/image9.png){#fig-org-factors width="55%" fig-pos='H'}     
+![Organisational factors](./images/image9.png){#fig-org-factors width="55%" fig-pos="H"}
 
+These issues are:
 
-These issues are:   
-
-- The internal organisation structure;
-- The degree to which assets and activities are retained in-house;                                                
-- Human resources; and                                                                                            
-- Relationship with customer.
-
-
+-   The internal organisation structure;
+-   The degree to which assets and activities are retained in-house;\
+-   Human resources; and\
+-   Relationship with customer.
 
 Not all organisational factors will directly affect cost-effectiveness; some enable or facilitate the achievement of performance when they are set in conformity with the business objectives. It is likely that no single model should constitute "best practice" in all circumstances.
 
-
-
 @fig-managerial provides a list of factors that would need to be considered in the scope of a comprehensive examination of the influence of ANSP **managerial and financial arrangements** on performance. They mainly relate to the following three issues:
 
-- The quality of management;
-- The collective bargaining process; and
-- Financial and accounting considerations.                                                                                                                                                                                       
+-   The quality of management;
+-   The collective bargaining process; and
+-   Financial and accounting considerations.
 
-![Managerial & financial aspects](./images/image10.png){#fig-managerial width="55%" fig-pos='H'}
-
-
-
+![Managerial & financial aspects](./images/image10.png){#fig-managerial width="55%" fig-pos="H"}
 
 Most of the managerial and financial aspects are expected to directly affect cost-effectiveness, since they have an impact, for example, on investment decisions, productivity and wage policies. The managerial and financial aspects are to some extent influenced by the ANSP organisational factors and by some of the exogenous factors (especially among the institutional and governance factors, and among the socio-economic factors).
 
+@fig-operational-setup provides a list of factors that would need to be considered in a comprehensive examination of the influence of **ANSP operational and technical setup** on performance. They mainly relate to the following three issues:
 
+-   Operational structure;
+-   Operational concepts and processes; and
+-   Operational flexibility.
 
-@fig-operational-setup provides a list of factors that would need to be considered
-in a comprehensive examination of the influence of **ANSP operational and technical setup**
-on performance. They mainly relate to the following three issues: 
-
-- Operational structure;
-- Operational concepts and processes; and
-- Operational flexibility. 
-
-![Operational & technical setup](./images/image11.png){#fig-operational-setup width="60%" fig-pos='bht'} 
+![Operational & technical setup](./images/image11.png){#fig-operational-setup width="60%" fig-pos="bht"}
 
 The operational and technical setup of an ANSP is expected to be influenced by both exogenous factors (typically the operational environment) and other endogenous factors (such as internal organisation and investment policy). The operational and technical setup is expected to affect both labour and capital productivity and the level of support costs.
