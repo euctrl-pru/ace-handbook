@@ -24,7 +24,7 @@ The PRU has developed an analytical framework that allows cost-effectiveness to 
 
 ![Performance framework for gate-to-gate cost-effectiveness analysis](./images/image3.png){#fig-framework-g2g width="100%"}
 
-The right-hand side of the @fig-framework-g2g above shows that the financial cost-effectiveness indicator (ATM/CNS provision costs per composite flight-hour) is made up of three component performance **ratios**:
+The right-hand side of the @fig-framework-g2g shows that the financial cost-effectiveness indicator (ATM/CNS provision costs per composite flight-hour) is made up of three component performance **ratios**:
 
 -   Higher ATCO-hour productivity (composite flight-hours per ATCO-hour) improves cost-effectiveness;
 

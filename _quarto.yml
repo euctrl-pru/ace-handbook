@@ -8,6 +8,7 @@ colorlinks: true
 
 format-links: [pdf]
 
+
 format:
   html:
     theme:
@@ -24,9 +25,11 @@ format:
       - media/analytics.html
   pdf:
     papersize: a4paper
+    pdf-engine: xelatex
     documentclass: scrbook
     classoption: "openany,headsepline=on,footsepline=off,DIV=12,table"
     mainfont: Roboto
+    # monofont: 'roboto-mono'
     keep-tex: true
     hyperrefoptions:
       - linktoc=all
@@ -40,17 +43,20 @@ format:
       - text: |
          % make figure title, number and caption bold
          \usepackage[labelfont=bf,font=bf]{caption}
-         %\areaset[current]{148.00mm}{220mm}
          %\usepackage[bottom=105pt]{geometry}
+         % alternate row color in tables (https://github.com/jgm/pandoc/issues/7421#issuecomment-881732047)
          \usepackage{colortbl}
          \usepackage{etoolbox}
          \AtBeginEnvironment{longtable}{\rowcolors{2}{gray!25}{}}
          \apptocmd{\toprule}{\hiderowcolors}{}{}
          \apptocmd{\endhead}{\showrowcolors}{}{}
          \apptocmd{\endfirsthead}{\showrowcolors}{}{}
-    include-before-body:
-      - text: |
-         %\rowcolors{3}{gray!25}{white}
+         % title font (https://stackoverflow.com/a/73689149)
+         \newfontfamily\tfont{Roboto}
+         \addtokomafont{title}{\tfont}
+         \addtokomafont{chapter}{\tfont}
+         \addtokomafont{section}{\tfont}
+
 
 book:
   title: "ACE Handbook"

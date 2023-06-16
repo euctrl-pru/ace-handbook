@@ -6,7 +6,7 @@ The ACE benchmarking analysis has the objective of comparing ATM cost-effectiven
 
 However, such a factual analysis cannot be either a complete explanation of performance differences between ANSPs, or an exhaustive guide on how performance can be improved, without some complementary consideration of how differences in performance arose.
 
-The framework illustrated in @fig-factors-cost below shows **exogenous** (outside the control of ANSPs) and **endogenous** (under ANSPs' control) factors which influence ANSP performance.
+The framework illustrated in @fig-factors-cost shows **exogenous** (outside the control of ANSPs) and **endogenous** (under ANSPs' control) factors which influence ANSP performance.
 
 ![Factors affecting cost-effectiveness performance](./images/image5.png){#fig-factors-cost width="80%"}
 
