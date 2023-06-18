@@ -1,6 +1,8 @@
 project:
   type: book
-  # post-render: pdfjam --no-tidy media/cover.pdf '1,2' _book/ACE-Handbook.pdf '-' media/cover.pdf '3,4' --outfile ACE-Handbook.pdf
+  # TODO: but links are messed up by pdfjam
+  # post-render: |
+  #      pdfjam book_orig.pdf 'last-1' --outfile /dev/stdout | pdfjam /dev/stdin '2-last' --outfile /dev/stdout | pdfjam media/cover.pdf '1,2' /dev/stdin 'last-1' media/cover.pdf '4' --outfile aaa.pdf
 
 bibliography: references.bib
 link-citations: true
