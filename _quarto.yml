@@ -1,8 +1,16 @@
 project:
   type: book
+  # TODO: but links are messed up by pdfjam
+  # post-render: |
+  #      pdfjam book_orig.pdf 'last-1' --outfile /dev/stdout | pdfjam /dev/stdin '2-last' --outfile /dev/stdout | pdfjam media/cover.pdf '1,2' /dev/stdin 'last-1' media/cover.pdf '4' --outfile aaa.pdf
 
 bibliography: references.bib
+link-citations: true
+colorlinks: true
 # csl: ieee-with-url.csl
+
+format-links: [pdf]
+
 
 format:
   html:
@@ -18,11 +26,46 @@ format:
       - media/fontawesome.html
       # UNCOMMENT for activating GA
       - media/analytics.html
+  pdf:
+    papersize: a4paper
+    pdf-engine: xelatex
+    documentclass: scrbook
+    classoption: "openany,headsepline=on,footsepline=off,DIV=12,table"
+    mainfont: Roboto
+    # monofont: 'roboto-mono'
+    keep-tex: true
+    hyperrefoptions:
+      - linktoc=all
+    toccolor:  'blue'
+    linkcolor: 'blue'
+    urlcolor:  'blue'
+    citecolor: 'blue'
+    fontsize: 11pt
+    # fig-pos: 'H'
+    include-in-header:
+      - text: |
+         % make figure title, number and caption bold
+         \usepackage[labelfont=bf,font=bf]{caption}
+         %\usepackage[bottom=105pt]{geometry}
+         % alternate row color in tables (https://github.com/jgm/pandoc/issues/7421#issuecomment-881732047)
+         \usepackage{colortbl}
+         \usepackage{etoolbox}
+         \AtBeginEnvironment{longtable}{\rowcolors{2}{gray!25}{}}
+         \apptocmd{\toprule}{\hiderowcolors}{}{}
+         \apptocmd{\endhead}{\showrowcolors}{}{}
+         \apptocmd{\endfirsthead}{\showrowcolors}{}{}
+         % title font (https://stackoverflow.com/a/73689149)
+         \newfontfamily\tfont{Roboto}
+         \addtokomafont{title}{\tfont}
+         \addtokomafont{chapter}{\tfont}
+         \addtokomafont{section}{\tfont}
+
 
 book:
   title: "ACE Handbook"
   author: "Performance Review Unit"
   date: "2023-03-01"
+  date-format: long
   chapters:
     - index.qmd
     - process-and-use.qmd
@@ -42,7 +85,6 @@ book:
     logo: "images/EUROCONTROL-logo-standard-rgb.svg"
     left:
       - text: "Aviation Intelligence"
-        icon: "star"
         menu:
           - text: "**Home**"
             icon: "house-fill"

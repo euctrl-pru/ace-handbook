@@ -10,14 +10,31 @@ First of all, it should be noted that these two indicators have been specified i
 
 The ACE benchmarking reports complement the SES target setting and monitoring activities by providing a detailed comparison of cost-effectiveness performance at ANSP level including a trend analysis of three main economic drivers (productivity, employment costs and support costs).
 
-![ACE cost-effectiveness indicator and SES cost-efficiency KPI](./images/image12.png){#fig-indicator-and-kpi width="100%"}
+![ACE cost-effectiveness indicator and SES cost-efficiency KPI](./images/image12.png){#fig-indicator-and-kpi width="90%" fig-pos='H'}
 
 As shown in @fig-indicator-and-kpi, the main differences between the ACE financial cost-effectiveness indicator and the SES en-route cost-efficiency KPI are the following:
 
--   **Operational scope**: En-route and terminal costs are considered  together when benchmarking the economic performance of ANSPs in  the ACE analysis. It is important to consider a "gate-to-gate"  perspective because the boundaries used to allocate costs between  en-route and terminal ANS vary between ANSPs and might introduce a  bias in the cost-effectiveness analysis. On the other hand, the  SES cost-efficiency KPI is computed for en-route and terminal ANS  separately, for the purposes of the target-setting and/or  monitoring processes.
+- **Operational scope**: En-route and terminal costs are considered  together when benchmarking the economic performance of ANSPs in  the ACE analysis. It is important to consider a "gate-to-gate"  perspective because the boundaries used to allocate costs between  en-route and terminal ANS vary between ANSPs and might introduce a  bias in the cost-effectiveness analysis. On the other hand, the  SES cost-efficiency KPI is computed for en-route and terminal ANS  separately, for the purposes of the target-setting and/or  monitoring processes.
 
--   **Service scope**: Total ANS costs (including costs relating to the  ANSPs, METSPs, EUROCONTROL, and NSAs) are used to compute the SES  cost-efficiency KPI, while only the ANSPs ATM/CNS provision costs  are included in the ACE benchmarking analysis.
+- **Service scope**: Total ANS costs (including costs relating to the  ANSPs, METSPs, EUROCONTROL, and NSAs) are used to compute the SES  cost-efficiency KPI, while only the ANSPs ATM/CNS provision costs  are included in the ACE benchmarking analysis.
 
--   **Measure of the output**: The output metric used to compute the SES  en-route cost-efficiency KPI is the number of en-route service  units[^5]. This metric is a function of the aircraft weight and of  the distance flown within a given charging zone. This is the  metric which has been historically used to compute the en-route  unit rate charged to airspace users. On the other hand, the ACE  financial cost-effectiveness indicator is computed using composite  flight-hours, which combine both flight-hours and IFR airport  movements (see @sec-metric-and-framework). It should be noted that the  geographical area controlled by ANSPs operational units can  substantially differ from the charging zones in case of delegation  of ANS. The composite flight-hours therefore better reflect the  operational activity performed by ANSPs, while service units are  more appropriate when charging zones are considered.
+- **Measure of the output**: The output metric used to compute the SES  en-route
+   cost-efficiency KPI is the number of en-route service  units[^5].
+   This metric is a function of the aircraft weight and of  the distance flown
+   within a given charging zone.
+   This is the  metric which has been historically used to compute the en-route
+   unit rate charged to airspace users.
+   On the other hand, the ACE  financial cost-effectiveness indicator is computed
+   using composite  flight-hours, which combine both flight-hours and IFR airport
+   movements (see @sec-metric-and-framework).
+   It should be noted that the geographical area controlled by ANSPs operational
+   units can  substantially differ from the charging zones in case of delegation
+   of ANS.
+   The composite flight-hours therefore better reflect the  operational activity
+   performed by ANSPs, while service units are  more appropriate when charging
+   zones are considered.
 
 [^5]: $\text{Service}\ \text{unit} = \text{distance factor} \times \ \sqrt{\frac{\text{MTOW}}{50}}$ <br> According to EU Regulation 2019/317 [@eu2019/317, Annex VIII 1.1 and 1.2], _the en route service units shall be calculated as the product of the distance factor and the weight factor for the flight concerned. [...] The distance factor in respect of a given charging zone shall be obtained by dividing by one hundred the number of kilometers flown._
+
+
+
