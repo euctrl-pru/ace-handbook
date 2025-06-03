@@ -64,7 +64,7 @@ format:
 book:
   title: "ACE Handbook"
   author: "Performance Review Unit"
-  date: "2023-03-01"
+  date: "2025-06-16"
   date-format: long
   chapters:
     - index.qmd

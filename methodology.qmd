@@ -6,11 +6,14 @@ The output measures for ANS provision are, for en-route, the en-route flight-hou
 
 [^methodology-1]: Controlled flight-hours are calculated by the Network Manager (NM) as the difference between the exit time and entry time of any given flight in the controlled airspace of an operational unit. Three types of flight-hours are currently computed by the NM (filed model, regulated model and current model). The data used for the cost-effectiveness analysis is based on the current model (Model 3 or CFTM) and includes flight-hours controlled in the ACC, APP and FIS operational units which are described in the NM environment.
 
-For this reason, an indicator combining the two separate output measures for en-route and terminal ANS provision has been calculated. The "composite gate-to-gate flight-hours" are determined by weighting the output measures by their respective average cost of the service for the whole Pan-European system. This average weighting factor is based on the total monetary value of the outputs over the period 2002-2020 and amounts to 0.27.
+For this reason, an indicator combining the two separate output measures for en-route and terminal ANS provision has been calculated. The “composite gate-to-gate flight-hours” are determined by weighting the output measures by their respective average cost of the service for the whole Pan-European system.
+
+This average weighting factor is based on the total monetary value of the outputs over a period starting in 2002 and ending in the year under review. The weighting factor can therefore vary marginally each time new costs and traffic data are added to the ACE database. As an indication, the value of the weighting factor based on the ACE 2023 data was around 0.28. However, composite flight-hours are calculated without rounding this factor. ANSPs wishing to calculate the exact value of their composite flight-hours can contact the PRU to get the exact figure, without rounding.
 
 The composite gate-to-gate flight-hours are consequently defined as:
 
-$$ \textrm{Composite gate-to-gate flight-hours} = \textrm{En-route flight-hours} + (0.27 * \textrm{IFR airport movements}) $$
+
+$$ \textrm{Composite gate-to-gate flight-hours} = \textrm{En-route flight-hours} + (0.28 * \textrm{IFR airport movements}) $$
 
 In the ACE 2001-2006 Reports [@ace_reports], two different weighting factors were used to compute ANSPs cost-effectiveness: one for the year under study and another to examine changes in performance across time. As the ACE data sample became larger in terms of years, the difference between these two weighting factors became insignificant. For the sake of simplicity, it was therefore proposed in the ACE 2007 benchmarking report to use only one weighting factor to analyse ANSPs performance for the year and to examine historical changes in cost-effectiveness.
 
