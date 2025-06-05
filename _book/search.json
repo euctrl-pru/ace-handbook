@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ACE Handbook",
+    "section": "",
+    "text": "1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#about-this-report",
+    "href": "index.html#about-this-report",
+    "title": "ACE Handbook",
+    "section": "1.1 About this report",
+    "text": "1.1 About this report\nThis document provides reference material that accompanies the Air Traffic Management Cost-Effectiveness (ACE) annual benchmarking reports, which are commissioned by EUROCONTROL’s independent Performance Review Commission (PRC).\nStarting with the ACE 2020 cycle, the information previously contained in the ACE reports have been reorganised in the following manner:\n\nThe ACE analytical report continues to provide a high level analysis of economic and financial cost-effectiveness performance in a given year at Pan-European system and ANSP level. It also analyses changes in ATM/CNS cost-effectiveness performance over the past 5 years and presents forward-looking information for the next 5 years. A particular focus is put on the three main economic drivers of cost-effectiveness (productivity, employment costs and support costs).\nThe ACE handbook (this document) provides general information on the scope of the analysis, outlines the processes involved in the production of the report, and includes explanations on the factors affecting performance and indicators used in the ACE benchmarking analysis.\nANSP factsheets and individual ANSP short reports (previously Part II of the ACE reports) are now only published on the web.\n\nThe ACE Dashboard provides interactive functionalities that allow users to design and customise original analyses and presentations based on ACE data (starting with 2002 data and updated annually).\nDigital versions of all the documents listed above as well as the ACE dashboard can be accessed at the following address: https://ansperformance.eu/economics/ace-overview/",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#scope-of-analysis",
+    "href": "index.html#scope-of-analysis",
+    "title": "ACE Handbook",
+    "section": "1.2 Scope of analysis",
+    "text": "1.2 Scope of analysis\nThe ACE report is based on information provided by ANSPs in compliance with Decision No. 88 of the Permanent Commission of EUROCONTROL (Permanent Commission for the Safety of Air Navigation 2015), which makes annual disclosure of ANS information mandatory, according to the Specification for Economic Information Disclosure (SEID) (EUROCONTROL 2012), in all EUROCONTROL Member States. From a methodological point of view, the analysis focuses on gate-to-gate ATM/CNS provision costs and does not address performance relating to:\n\noceanic ANS;\nservices provided to military operational air traffic (OAT); or,\nairport (landside) management operations.\n\nSimilarly, the costs associated with other entities such as National Supervisory Authorities (NSAs), national MET providers and the EUROCONTROL Agency (although mentioned for completeness purposes in the introduction of the report) are not taken into account in the calculation of the ACE cost‐effectiveness indicators (see Figure 6.1 for more details).\n\n\n\n\nEUROCONTROL. 2012. “Specification for Economic Information Disclosure.” Specification EUROCONTROL-SPEC-117, ver 3.0. Brussels, Belgium: EUROCONTROL. https://www.eurocontrol.int/ACE/Supporting-Documents/SEID3.0.pdf.\n\n\nPermanent Commission for the Safety of Air Navigation. 2015. “Decision No. 88 of the EUROCONTROL Permanent Commission.” Brussels, Belgium: EUROCONTROL. https://www.eurocontrol.int/sites/default/files/content/documents/official-documents/pc/commission-act/ecn-decisions-88en.pdf.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "detail-ace-indicators.html",
+    "href": "detail-ace-indicators.html",
+    "title": "8  Detailed information on the calculation of ACE indicators",
+    "section": "",
+    "text": "8.1 Cost-effectiveness indicators\nThe main indicators used in ACE to analyse ANSPs cost-effectiveness are:\nThe table below presents the formulas used to calculate these indicators with reference to the SEID item numbers.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Detailed information on the calculation of ACE indicators</span>"
+    ]
+  },
+  {
+    "objectID": "detail-ace-indicators.html#cost-effectiveness-indicators",
+    "href": "detail-ace-indicators.html#cost-effectiveness-indicators",
+    "title": "8  Detailed information on the calculation of ACE indicators",
+    "section": "",
+    "text": "economic cost-effectiveness;\nfinancial cost-effectiveness;\nATCO-hour productivity;\nATCO employment costs per ATCO-hour; and,\nsupport costs per composite flight-hour.\n\n\n\n\n\n\n\n\n\n\n\n#\nIndicator\nFormula\nSource\n\n\n\n\n1\nComposite flight-hours\nEn-route flight-hours +(0.28×IFR airport movements)\nEn-route flight-hours: Item D16, continental ANS\nIFR airport movements: Item D18, SES airports + Non-SES airports\n0.28 is the two-digits rounded weighting factor (see Chapter 3)\n\n\n2\nEconomic cost-effectiveness\n(Total service provision costs+Total costs of ATFM delays)/(Composite flight-hours)\nTotal service provision costs: Item A15 (en-route + terminal columns)\nTotal costs of ATFM delays: Minutes of ATFM delays extracted from the Network manager database, monetarised using the cost of a minute of ATFM delays (see Chapter 4)\nComposite flight-hours: Formula #1\n\n\n3\nFinancial cost-effectiveness\n(Total service provision costs)/(Composite flight-hours)\nTotal service provision costs: Item A15 (en-route + terminal columns)\nComposite flight-hours: Formula #1\n\n\n4\nATCO-hour productivity\n(Composite flight-hour)/(Sum of ATCO in OPS hours on duty)\nComposite flight-hours: Formula #1\nSum of ATCO in OPS hours on duty: Item D22 (ACCs + APPs+TWRs columns)\n\n\n5\nATCO employment costs per ATCO-hour\n(Staff costs for ATCOs in OPS)/(Sum of ATCO in OPS hours on duty)\nStaff costs for ATCOs in OPS: Item C23 (en-route + terminal columns)\nSum of ATCO in OPS hours on duty: Item D22 (ACCs + APPs+TWRs columns)\n\n\n6\nSupport costs per composite flight-hour\n(Total service provision costs-ATCOs in OPS Employment costs)/(Composite flight-hours)\nTotal service provision costs: Item A15 (en-route + terminal columns)\nATCOs in OPS Employment costs: Item C23 (en-route + terminal columns)\nComposite flight-hours: Formula #1",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Detailed information on the calculation of ACE indicators</span>"
+    ]
+  },
+  {
+    "objectID": "detail-ace-indicators.html#financial-indicators-used-to-monitor-ansps-liquidity-and-cash-situation",
+    "href": "detail-ace-indicators.html#financial-indicators-used-to-monitor-ansps-liquidity-and-cash-situation",
+    "title": "8  Detailed information on the calculation of ACE indicators",
+    "section": "8.2 Financial indicators used to monitor ANSPs liquidity and cash situation",
+    "text": "8.2 Financial indicators used to monitor ANSPs liquidity and cash situation\nThe current ratio and cash-on-hand days indicators are used in ACE report to analyse ANSPs financial situation. The formulas and sources of data used for calculation are presented in the table below.\n\n\n\n\n\n\n\n\n\n#\nIndicator\nFormula\nSource\n\n\n\n\n1\nCurrent ratio\n(Current assets)/(Current liabilities)\nCurrent assets: Item B15 (total ANS column)\nCurrent liabilities: Item B30, (total ANS column)\n\n\n2\nCash-on-hand days\n(Cash in hand or at bank)/(Staff costs+Non-staff operating costs)×365\nCash in hand or at bank: Item B18 (total ANS column)\nStaff costs: Item A16, (total ANS column)\nNon-staff operating costs: Item A17 (total ANS column)",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Detailed information on the calculation of ACE indicators</span>"
+    ]
+  }
+]

@@ -19,7 +19,7 @@ Starting with the ACE 2020 cycle, the information previously contained in the AC
 
 3.  **ANSP factsheets and individual ANSP short reports** (previously Part II of the ACE reports) are now only published on the web.
 
-**The ACE Dashboard** continues to provide interactive functionalities that allow users to design and customise original analyses and presentations based on ACE data (starting in 2003 and updated one a year). The dashboard also gives access to individual ANSP short reports.
+**The ACE Dashboard** provides interactive functionalities that allow users to design and customise original analyses and presentations based on ACE data (starting with 2002 data and updated annually).
 
 Digital versions of all the documents listed above as well as the ACE dashboard can be accessed at the following address: 
 [https://ansperformance.eu/economics/ace-overview/](https://ansperformance.eu/economics/ace-overview/){target="_blank" class="external"}
