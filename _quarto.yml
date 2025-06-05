@@ -23,6 +23,8 @@ format:
       # UNCOMMENT for activating GA
       - media/analytics.html
   pdf:
+    # NOTE: hack of an hack, see above 'abstract'
+    abstract: ""
     papersize: a4paper
     pdf-engine: xelatex
     documentclass: scrbook
