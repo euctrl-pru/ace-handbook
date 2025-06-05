@@ -1,15 +1,11 @@
 project:
   type: book
-  # TODO: but links are messed up by pdfjam
-  # post-render: |
-  #      pdfjam book_orig.pdf 'last-1' --outfile /dev/stdout | pdfjam /dev/stdin '2-last' --outfile /dev/stdout | pdfjam media/cover.pdf '1,2' /dev/stdin 'last-1' media/cover.pdf '4' --outfile aaa.pdf
 
 bibliography: references.bib
 link-citations: true
 colorlinks: true
-# csl: ieee-with-url.csl
 
-format-links: [pdf]
+# format-links: [pdf]
 
 
 format:
@@ -41,7 +37,6 @@ format:
     urlcolor:  'blue'
     citecolor: 'blue'
     fontsize: 11pt
-    # fig-pos: 'H'
     include-in-header:
       - text: |
          % make figure title, number and caption bold
@@ -59,6 +54,11 @@ format:
          \addtokomafont{title}{\tfont}
          \addtokomafont{chapter}{\tfont}
          \addtokomafont{section}{\tfont}
+
+# NOTE: this is a hack
+abstract: |
+   [ACE Handbook (PDF)](ACE-Handbook.pdf){target="_blank"}
+abstract-title: "Download PDF"
 
 
 book:
@@ -89,29 +89,7 @@ book:
           - text: "**Home**"
             icon: "house-fill"
             href: "https://ansperformance.eu"
-            # ---
-          # - text: "**Balanced Scorecard**"
-          #   icon: "grid-3x3-gap-fill"
-          #   href: "https://www.eurocontrol.int/Economics/BalancedScorecard.html"
-          #   # ---
-          # - text: "<i class='fas fa-biohazard'></i> **COVID-19 crisis**"
-          #   href: "https://ansperformance.eu/covid/"
-          #
-          # - text: "State and Airline response to Covid-19"
-          #   icon: "arrow-return-right"
-          #   href: "https://www.eurocontrol.int/covid19#response-to-covid-19"
-          #
-          # - text: "Grounded Aircraft"
-          #   icon: "arrow-return-right"
-          #   href: "https://ansperformance.eu/covid/acft_ground/"
-          #
-          # - text: "Impact on ANSPs financial situation"
-          #   icon: "arrow-return-right"
-          #   href: "https://ansperformance.eu/economics/finance/"
-          #
-          # - text: "Impact on vertical flight efficiency (CCO/CDO)"
-          #   icon: "arrow-return-right"
-          #   href: "https://ansperformance.eu/covid/covid_vfe/"
+
             # ---
           - text: "<i class='fas fa-plane-departure'></i> **Traffic**"
             href: "https://ansperformance.eu/traffic/"
@@ -123,6 +101,7 @@ book:
           - text: "Traffic Forecast"
             icon: "arrow-return-right"
             href: "https://ansperformance.eu/traffic/statfor/"
+
             # ---
           - text: "<i class='fas fa-leaf'></i> **Efficiency & Environment**"
             href: "https://ansperformance.eu/efficiency/"
@@ -198,22 +177,6 @@ book:
             # ---
           - text: "<i class='fas fa-hands-helping'></i> **Reference**"
             href: "https://ansperformance.eu/reference/"
-
-#           - text: "Data Download"
-#             icon: "arrow-return-right"
-#             href: "https://ansperformance.eu/data/"
-# #
-# #           - text: "Studies"
-# #             icon: "arrow-return-right"
-# #             href: "https://ansperformance.eu/study/"
-#
-#           - text: "Definitions"
-#             icon: "arrow-return-right"
-#             href: "https://ansperformance.eu/definition/"
-#
-#           - text: "Methodology"
-#             icon: "arrow-return-right"
-#             href: "https://ansperformance.eu/methodology/"
 
             # ---
           - text: "<i class='fas fa-external-link-alt'></i> **External**"

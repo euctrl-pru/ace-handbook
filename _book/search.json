@@ -230,16 +230,6 @@
     ]
   },
   {
-    "objectID": "detail-ace-indicators.html#financial-indicators-used-to-monitor-ansps-liquidity-and-cash-situation",
-    "href": "detail-ace-indicators.html#financial-indicators-used-to-monitor-ansps-liquidity-and-cash-situation",
-    "title": "8  Detailed information on the calculation of ACE indicators",
-    "section": "8.2 Financial indicators used to monitor ANSPs liquidity and cash situation",
-    "text": "8.2 Financial indicators used to monitor ANSPs liquidity and cash situation\nThe current ratio and cash-on-hand days indicators are used in ACE report to analyse ANSPs financial situation. The formulas and sources of data used for calculation are presented in the table below.\n\n\n\n\n\n\n\n\n\n#\nIndicator\nFormula\nSource\n\n\n\n\n1\nCurrent ratio\n(Current assets)/(Current liabilities)\nCurrent assets: Item B15 (total ANS column)\nCurrent liabilities: Item B30, (total ANS column)\n\n\n2\nCash-on-hand days\n(Cash in hand or at bank)/(Staff costs+Non-staff operating costs)×365\nCash in hand or at bank: Item B18 (total ANS column)\nStaff costs: Item A16, (total ANS column)\nNon-staff operating costs: Item A17 (total ANS column)",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Detailed information on the calculation of ACE indicators</span>"
-    ]
-  },
-  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",

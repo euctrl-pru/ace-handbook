@@ -56,20 +56,3 @@ The table below presents the formulas used to calculate these indicators with re
 |          |                                         |                                                                                        | ***Composite flight-hours:*** Formula #1                                                                                                                                         |
 +----------+-----------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## Financial indicators used to monitor ANSPs liquidity and cash situation
-
-The current ratio and cash-on-hand days indicators are used in ACE report to analyse ANSPs financial situation. The formulas and sources of data used for calculation are presented in the table below.
-
-+-----------+-------------------+-----------------------------------------------------------------------+--------------------------------------------------------------+
-| \#        | Indicator         | Formula                                                               | Source                                                       |
-+===========+===================+=======================================================================+==============================================================+
-| 1         | Current ratio     | (Current assets)/(Current liabilities)                                | ***Current assets:*** Item B15 (total ANS column)            |
-|           |                   |                                                                       |                                                              |
-|           |                   |                                                                       | ***Current liabilities:*** Item B30, (total ANS column)      |
-+-----------+-------------------+-----------------------------------------------------------------------+--------------------------------------------------------------+
-| 2         | Cash-on-hand days | (Cash in hand or at bank)/(Staff costs+Non-staff operating costs)×365 | ***Cash in hand or at bank***: Item B18 (total ANS column)   |
-|           |                   |                                                                       |                                                              |
-|           |                   |                                                                       | ***Staff costs:*** Item A16, (total ANS column)              |
-|           |                   |                                                                       |                                                              |
-|           |                   |                                                                       | ***Non-staff operating costs:*** Item A17 (total ANS column) |
-+-----------+-------------------+-----------------------------------------------------------------------+--------------------------------------------------------------+
