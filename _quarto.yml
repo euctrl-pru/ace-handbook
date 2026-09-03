@@ -81,7 +81,7 @@ abstract-title: "Download PDF"
 book:
   title: "ACE Handbook"
   author: "Performance Review Unit"
-  date: "2025-06-16"
+  date: "2026-09-03"
   date-format: long
   chapters:
     - index.qmd
@@ -215,4 +215,3 @@ book:
             href: https://ansperformance.eu/post/
           - text: "Disclaimer"
             href: https://ansperformance.eu/about/disclaimer/
-
