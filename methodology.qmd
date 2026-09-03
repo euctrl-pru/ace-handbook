@@ -8,7 +8,7 @@ The output measures for ANS provision are, for en-route, the en-route flight-hou
 
 For this reason, an indicator combining the two separate output measures for en-route and terminal ANS provision has been calculated. The “composite gate-to-gate flight-hours” are determined by weighting the output measures by their respective average cost of the service for the whole Pan-European system.
 
-This average weighting factor is based on the total monetary value of the outputs over a period starting in 2002 and ending in the year under review. The weighting factor can therefore vary marginally each time new costs and traffic data are added to the ACE database. As an indication, the value of the weighting factor based on the ACE 2023 data was around 0.28. However, composite flight-hours are calculated without rounding this factor. ANSPs wishing to calculate the exact value of their composite flight-hours can contact the PRU to get the exact figure, without rounding.
+This average weighting factor is based on the total monetary value of the outputs over a period starting in 2002 and ending in the year under review. The weighting factor can therefore vary marginally each time new costs and traffic data are added to the ACE database. As an indication, the value of the weighting factor based on the ACE 2024 data was around 0.28. However, composite flight-hours are calculated without rounding this factor. ANSPs wishing to calculate the exact value of their composite flight-hours can contact the PRU to get the exact figure, without rounding.
 
 The composite gate-to-gate flight-hours are consequently defined as:
 
@@ -21,13 +21,13 @@ Although the composite gate-to-gate output metric does not fully reflect all asp
 
 [^methodology-2]: Further details on the theoretical background to producing composite indicators can be found in a working paper on "*Total Factor Productivity of European ANSPs: basic concepts and application*" (Sept. 2005) [@prc01/2005].
 
-For the sake of completeness, the gate-to-gate financial cost-effectiveness indicator is broken down into en-route and terminal components, with the output units being en-route flight-hours and IFR airport movements, respectively. There are cases where a high en-route cost per flight-hour correspond to a low terminal cost per IFR airport movement and vice versa.
+For the sake of completeness, the gate-to-gate ATM/CNS provision cost-effectiveness indicator is broken down into en-route and terminal components, with the output units being en-route flight-hours and IFR airport movements, respectively. There are cases where a high en-route cost per flight-hour correspond to a low terminal cost per IFR airport movement and vice versa.
 
 The PRU has developed an analytical framework that allows cost-effectiveness to be broken down into a number of key components. This framework helps in understanding differences in cost-effectiveness by allowing examination of the detailed factors underlying it. It is important to note that the focus of the ACE analysis is on the ATM/CNS provision costs incurred by the ANSP. MET costs, EUROCONTROL costs and States/NSAs costs are not included as not always under the ANSPs direct management control.
 
 ![Performance framework for gate-to-gate cost-effectiveness analysis](./images/image3.png){#fig-framework-g2g width="100%"}
 
-The right-hand side of the @fig-framework-g2g shows that the financial cost-effectiveness indicator (ATM/CNS provision costs per composite flight-hour) is made up of three component performance **ratios**:
+The right-hand side of the @fig-framework-g2g shows that the ATM/CNS provision cost-effectiveness indicator (ATM/CNS provision costs per composite flight-hour) is made up of three component performance **ratios**:
 
 -   Higher ATCO-hour productivity (composite flight-hours per ATCO-hour) improves cost-effectiveness;
 
@@ -35,13 +35,13 @@ The right-hand side of the @fig-framework-g2g shows that the financial cost-effe
 
 -   All other things being equal, a lower **support cost ratio** improves cost-effectiveness.
 
-These three ratios multiplied together give the overall financial cost-effectiveness KPI.
+These three ratios multiplied together give the overall ATM/CNS provision cost-effectiveness KPI.
 
-The financial cost-effectiveness indicator can also be broken down into two additive factors:
+The ATM/CNS provision cost-effectiveness indicator can also be broken down into two additive factors:
 
--   **ATCO employment costs per unit of output** is the ratio of the employment costs for the ATCOs in OPS to the output (measured in composite flight-hours). All other things being equal, lower ATCOs in OPS employment costs per unit of output will improve financial cost-effectiveness.
+-   **ATCO employment costs per unit of output** is the ratio of the employment costs for the ATCOs in OPS to the output (measured in composite flight-hours). All other things being equal, lower ATCOs in OPS employment costs per unit of output will improve ATM/CNS provision cost-effectiveness.
 
--   **Support costs per unit of output** is the ratio of support costs to the output. All other things being equal, lower support costs per unit of output will improve financial cost-effectiveness.
+-   **Support costs per unit of output** is the ratio of support costs to the output. All other things being equal, lower support costs per unit of output will improve ATM/CNS provision cost-effectiveness.
 
 The latter indicator is preferred to the support cost ratio for two main reasons. First, the support cost ratio cannot be viewed in isolation since a low ratio may simply be a symptom of high ATCO employment costs. Second, given that there are fixed costs in the provision of ATM/CNS (such as infrastructure and ATM systems), "support costs per unit of output" can give additional insights into the analysis of support costs and scale effects.
 
