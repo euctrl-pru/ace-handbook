@@ -13,7 +13,7 @@ This document provides reference material that accompanies the Air Traffic Manag
 
 Starting with the ACE 2020 cycle, the information previously contained in the ACE reports have been reorganised in the following manner:
 
-1.  **The ACE analytical report** continues to provide a high level analysis of economic and financial cost-effectiveness performance in a given year at Pan-European system and ANSP level. It also analyses changes in ATM/CNS cost-effectiveness performance over the past 5 years and presents forward-looking information for the next 5 years. A particular focus is put on the three main economic drivers of cost-effectiveness (productivity, employment costs and support costs).
+1.  **The ACE analytical report** continues to provide a high level analysis of economic and ATM/CNS provision cost-effectiveness performance in a given year at Pan-European system and ANSP level. It also analyses changes in ATM/CNS cost-effectiveness performance over the past 5 years and presents forward-looking information for the next 5 years. A particular focus is put on the three main economic drivers of cost-effectiveness (productivity, employment costs and support costs).
 
 2.  **The ACE handbook (this document)** provides general information on the scope of the analysis, outlines the processes involved in the production of the report, and includes explanations on the factors affecting performance and indicators used in the ACE benchmarking analysis.
 
