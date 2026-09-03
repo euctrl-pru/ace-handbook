@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -60,10 +63,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c4b8caac1e53891125036fd58667a5e1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-649d483c970d516494d11b0e5917f646.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -93,23 +96,14 @@ div.csl-indent {
   }
 }</script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
 <!-- Google tag (gtag.js) -->
-
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RJ3R0C35X7"></script>
-
 <script>
-
   window.dataLayer = window.dataLayer || [];
-
   function gtag(){dataLayer.push(arguments);}
-
   gtag('js', new Date());
-
   gtag('config', 'G-RJ3R0C35X7');
-
 </script>
-
 <!-- Matomo -->
 <script>
   var _paq = window._paq = window._paq || [];
@@ -126,7 +120,7 @@ div.csl-indent {
 <!-- End Matomo Code -->
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -533,12 +527,12 @@ window.Quarto = {
 <h2 data-number="3.1" class="anchored" data-anchor-id="sec-metric-and-framework"><span class="header-section-number">3.1</span> Composite output metric and framework for cost-effectiveness performance analysis</h2>
 <p>The output measures for ANS provision are, for en-route, the en-route flight-hours controlled<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and, for terminal ANS, the number of IFR airport movements controlled. In addition to those output metrics, it is important to consider a “gate-to-gate” perspective, because the boundaries used to allocate costs between en-route and terminal ANS vary between ANSPs and might introduce a bias in the cost-effectiveness analysis.</p>
 <p>For this reason, an indicator combining the two separate output measures for en-route and terminal ANS provision has been calculated. The “composite gate-to-gate flight-hours” are determined by weighting the output measures by their respective average cost of the service for the whole Pan-European system.</p>
-<p>This average weighting factor is based on the total monetary value of the outputs over a period starting in 2002 and ending in the year under review. The weighting factor can therefore vary marginally each time new costs and traffic data are added to the ACE database. As an indication, the value of the weighting factor based on the ACE 2023 data was around 0.28. However, composite flight-hours are calculated without rounding this factor. ANSPs wishing to calculate the exact value of their composite flight-hours can contact the PRU to get the exact figure, without rounding.</p>
+<p>This average weighting factor is based on the total monetary value of the outputs over a period starting in 2002 and ending in the year under review. The weighting factor can therefore vary marginally each time new costs and traffic data are added to the ACE database. As an indication, the value of the weighting factor based on the ACE 2024 data was around 0.28. However, composite flight-hours are calculated without rounding this factor. ANSPs wishing to calculate the exact value of their composite flight-hours can contact the PRU to get the exact figure, without rounding.</p>
 <p>The composite gate-to-gate flight-hours are consequently defined as:</p>
 <p><span class="math display">\[ \textrm{Composite gate-to-gate flight-hours} = \textrm{En-route flight-hours} + (0.28 * \textrm{IFR airport movements}) \]</span></p>
 <p>In the ACE 2001-2006 Reports <span class="citation" data-cites="ace_reports">(<a href="references.html#ref-ace_reports" role="doc-biblioref">Performance Review Unit 2023</a>)</span>, two different weighting factors were used to compute ANSPs cost-effectiveness: one for the year under study and another to examine changes in performance across time. As the ACE data sample became larger in terms of years, the difference between these two weighting factors became insignificant. For the sake of simplicity, it was therefore proposed in the ACE 2007 benchmarking report to use only one weighting factor to analyse ANSPs performance for the year and to examine historical changes in cost-effectiveness.</p>
 <p>Although the composite gate-to-gate output metric does not fully reflect all aspects of the complexity of the services provided, it is nevertheless the best metric currently available for the analysis of gate-to-gate cost-effectiveness<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
-<p>For the sake of completeness, the gate-to-gate financial cost-effectiveness indicator is broken down into en-route and terminal components, with the output units being en-route flight-hours and IFR airport movements, respectively. There are cases where a high en-route cost per flight-hour correspond to a low terminal cost per IFR airport movement and vice versa.</p>
+<p>For the sake of completeness, the gate-to-gate ATM/CNS provision cost-effectiveness indicator is broken down into en-route and terminal components, with the output units being en-route flight-hours and IFR airport movements, respectively. There are cases where a high en-route cost per flight-hour correspond to a low terminal cost per IFR airport movement and vice versa.</p>
 <p>The PRU has developed an analytical framework that allows cost-effectiveness to be broken down into a number of key components. This framework helps in understanding differences in cost-effectiveness by allowing examination of the detailed factors underlying it. It is important to note that the focus of the ACE analysis is on the ATM/CNS provision costs incurred by the ANSP. MET costs, EUROCONTROL costs and States/NSAs costs are not included as not always under the ANSPs direct management control.</p>
 <div id="fig-framework-g2g" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -550,17 +544,17 @@ Figure&nbsp;3.1: Performance framework for gate-to-gate cost-effectiveness analy
 </figcaption>
 </figure>
 </div>
-<p>The right-hand side of the <a href="#fig-framework-g2g" class="quarto-xref">Figure&nbsp;<span>3.1</span></a> shows that the financial cost-effectiveness indicator (ATM/CNS provision costs per composite flight-hour) is made up of three component performance <strong>ratios</strong>:</p>
+<p>The right-hand side of the <a href="#fig-framework-g2g" class="quarto-xref">Figure&nbsp;<span>3.1</span></a> shows that the ATM/CNS provision cost-effectiveness indicator (ATM/CNS provision costs per composite flight-hour) is made up of three component performance <strong>ratios</strong>:</p>
 <ul>
 <li><p>Higher ATCO-hour productivity (composite flight-hours per ATCO-hour) improves cost-effectiveness;</p></li>
 <li><p>Lower ATCO <strong>employment costs per ATCO-hour</strong> improve cost-effectiveness; and,</p></li>
 <li><p>All other things being equal, a lower <strong>support cost ratio</strong> improves cost-effectiveness.</p></li>
 </ul>
-<p>These three ratios multiplied together give the overall financial cost-effectiveness KPI.</p>
-<p>The financial cost-effectiveness indicator can also be broken down into two additive factors:</p>
+<p>These three ratios multiplied together give the overall ATM/CNS provision cost-effectiveness KPI.</p>
+<p>The ATM/CNS provision cost-effectiveness indicator can also be broken down into two additive factors:</p>
 <ul>
-<li><p><strong>ATCO employment costs per unit of output</strong> is the ratio of the employment costs for the ATCOs in OPS to the output (measured in composite flight-hours). All other things being equal, lower ATCOs in OPS employment costs per unit of output will improve financial cost-effectiveness.</p></li>
-<li><p><strong>Support costs per unit of output</strong> is the ratio of support costs to the output. All other things being equal, lower support costs per unit of output will improve financial cost-effectiveness.</p></li>
+<li><p><strong>ATCO employment costs per unit of output</strong> is the ratio of the employment costs for the ATCOs in OPS to the output (measured in composite flight-hours). All other things being equal, lower ATCOs in OPS employment costs per unit of output will improve ATM/CNS provision cost-effectiveness.</p></li>
+<li><p><strong>Support costs per unit of output</strong> is the ratio of support costs to the output. All other things being equal, lower support costs per unit of output will improve ATM/CNS provision cost-effectiveness.</p></li>
 </ul>
 <p>The latter indicator is preferred to the support cost ratio for two main reasons. First, the support cost ratio cannot be viewed in isolation since a low ratio may simply be a symptom of high ATCO employment costs. Second, given that there are fixed costs in the provision of ATM/CNS (such as infrastructure and ATM systems), “support costs per unit of output” can give additional insights into the analysis of support costs and scale effects.</p>
 </section>
