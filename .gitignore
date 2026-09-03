@@ -8,3 +8,6 @@ ACE-Handbook.tex
 /.quarto/
 
 **/*.quarto_ipynb
+
+/_book/
+/_site/
