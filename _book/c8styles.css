@@ -1,0 +1,26 @@
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+td {
+   vertical-align: middle;
+   font-size: 0.95rem;
+
+}
+
+thead {
+   background-color: darkblue;
+   color: white;
+   text-align:center;
+   font-weight:bold;
+   font-size: 0.95rem;
+}
+
+tbody {
+   margin-bottom: 0px;
+}
